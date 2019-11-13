@@ -41,10 +41,6 @@ def getWebLinks(pages):
             final_res.append("http://yelp.com" + i['href'])
     return final_res
 
-def getReviews(restaurants):
-    reviewLinks = []
-    
-
 # Execute our stored procedure to insert our data
 # takes in a list and
 def insertRestaurants(all, mydb):
