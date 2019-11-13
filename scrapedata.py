@@ -79,7 +79,7 @@ def insertRestaurants(all, mydb):
 if __name__ == '__main__':
 
     # get our pages that we wish to scrape
-    links = processLink(1, 2)
+    links = processLink(0, 1)
     # get list of url of each individual restaurant
     finalLink = getWebLinks(links)
 
