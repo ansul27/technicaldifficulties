@@ -48,11 +48,13 @@ def insertRestaurants(all, mydb):
     # insert data into our database
     insertRes = """
     SET NOCOUNT ON; 
-    EXECUTE [insert_simkota]
+    EXECUTE [addRestaurants]
     @resName = ?, 
     @numReviews = ?,
     @resAddress = ?,
-    @resCat = ?
+    @resCat = ?,
+    @yelpUrl = ?,
+    @rating = ?
     """
     print("start to import")
     for i in all:
@@ -62,7 +64,9 @@ def insertRestaurants(all, mydb):
         numReviews = i[1]
         resAddress = i[2]
         resCat = i[3]
-        params = (resName, numReviews, resAddress, resCat)
+        yelpUrl = i[4]
+        rating = i[5]
+        params = (resName, numReviews, resAddress, resCat, yelpUrl, rating)
         #just for debugging
         print(i)
         cursor.execute(insertRes, params)
@@ -70,7 +74,6 @@ def insertRestaurants(all, mydb):
     cursor.commit()
     #close the connection and cursor
     cursor.close()
-    mydb.close()
 
 
 
@@ -88,6 +91,7 @@ if __name__ == '__main__':
     reviews = []
     locations = []
     categories = []
+    ratings = []
 
     # for all the links we got, append the title, price, desc, and genres into a list
     for i in finalLink:
@@ -96,9 +100,75 @@ if __name__ == '__main__':
         reviews.append(restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--mid__373c0__3G312 text-align--left__373c0__2pnx_ text-size--large__373c0__1568g').text)
         locations.append(restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--normal__373c0__K_MKN text-align--left__373c0__2pnx_').text)
         categories.append(restaurant.find('a', class_ = 'lemon--a__373c0__IEZFH link__373c0__29943 link-color--blue-dark__373c0__1mhJo link-size--inherit__373c0__2JXk5').text)
+        rs = restaurant.find('div', class_=lambda class_:class_ and class_.startswith("lemon--div__373c0__1mboc i-stars__373c0__Y2F3O"))["aria-label"][:1]
+        ratings.append(int(restaurant.find('div', class_=lambda class_:class_ and class_.startswith("lemon--div__373c0__1mboc i-stars__373c0__Y2F3O"))["aria-label"][:1]))
     # zip the book with their information into tuples, and put them in a list
-    allRes = list(zip(names, reviews, locations, categories))
+    allRes = list(zip(names, reviews, locations, categories, finalLink, ratings))
     #connect to our database
     mydb = conenctToDB()
     # insert your data into the table you created
     insertRestaurants(allRes, mydb)
+    getReviews(mydb)
+    mydb.close()
+
+
+def getReviews(mydb):
+    cursor = mydb.cursor()
+    getRestaurants = '''
+        SELECT resId, yelpUrl
+        FROM restaurantData
+    '''
+    resIds = []
+    reviews = []
+    reviewerIds = []
+    stars = []
+    dates = []
+    cursor.execute(getRestaurants)
+    for row in cursor.fetchall():
+        restaurant = getHTML(row[1])
+        resReviews = restaurant.findAll('li', class_='lemon--li__373c0__1r9wz u-space-b3 u-padding-b3 border--bottom__373c0__uPbXS border-color--default__373c0__2oFDT')
+        for review in resReviews:
+            reviews.append(review.find('span', class_='lemon--span__373c0__3997G').text)
+            resIds.append(row[0])
+            reviewer = (review.find('span', class_='lemon--span__373c0__3997G text__373c0__2pB8f fs-block text-color--inherit__373c0__w_15m text-align--left__373c0__2pnx_ text-weight--bold__373c0__3HYJa').text)
+            matches = cursor.execute("SELECT UserID FROM Users WHERE name = ?", reviewer)
+            if matches == 0:
+                cursor.execute("INSERT INTO Users Values (%s)", reviewer)
+                cursor.execute("SELECT UserID FROM Users WHERE name = ?", reviewer)
+            for uid in cursor.fetchall():
+                reviewerIds.append(uid[0])
+            stars.append(int(review.find('div', class_="lemon--div__373c0__1mboc i-stars__373c0__Y2F3O i-stars--regular-5__373c0__ySHIl border-color--default__373c0__2oFDT overflow--hidden__373c0__8Jq2I")["aria-label"][:1]))
+            dates.append(review.find('span', class_="lemon--span__373c0__3997G text__373c0__2pB8f text-color--mid__373c0__3G312 text-align--left__373c0__2pnx_").text)
+        # zip the book with their information into tuples, and put them in a list
+    allReviews = list(zip(resIds, reviews, reviewerIds, stars, dates))
+    # insert your data into the table you created
+    insertReviews(allReviews, mydb, cursor)
+
+def insertReviews(all, mydb, cursor):
+    # insert data into our database
+    insertReview = """
+    SET NOCOUNT ON; 
+    EXECUTE [addReview]
+    @resId = ?, 
+    @review = ?,
+    @reviewerId = ?,
+    @stars = ?,
+    @reviewDate = ?
+    """
+    print("start to import")
+    for i in all:
+        # in this case, I can just do cursor.execute(insertBook, params),
+        # but doing this is just to make sure my my tuple elements are in right order
+        resId = i[0]
+        review = i[1]
+        reviewerId = i[2]
+        stars = i[3]
+        date = i[4]
+        params = (resId, review, reviewerId, stars, date)
+        #just for debugging
+        print(i)
+        cursor.execute(insertReview, params)
+    #commit your transaction when finished
+    cursor.commit()
+    #close the connection and cursor
+    cursor.close()
