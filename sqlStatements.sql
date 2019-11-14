@@ -62,7 +62,7 @@ CREATE TABLE reviews (
 	reviewId int IDENTITY(1,1) PRIMARY KEY,
 	resId int FOREIGN KEY REFERENCES restaurantData NOT NULL,
 	review VARCHAR(4096),
-	reviewerId int FOREIGN KEY REFERENCES users NOT NULL,
+	-- reviewerId int FOREIGN KEY REFERENCES users NOT NULL,
 	stars int,
 	reviewDate VARCHAR(4096)
 )
@@ -76,7 +76,7 @@ GO
 Create PROCEDURE addReviews
 @resId int,
 @review VARCHAR(4096),
-@reviewerId int,
+-- @reviewerId int,
 @stars int,
 @reviewDate VARCHAR(4096)
 AS
@@ -89,8 +89,8 @@ RETURN
 END
 
 BEGIN TRAN T1 
-INSERT INTO reviews(resId, review, reviewerId, stars, reviewDate) 
-VALUES (@resId, @review, @reviewerId, @stars, @reviewDate)
+INSERT INTO reviews(resId, review, stars, reviewDate) 
+VALUES (@resId, @review, @stars, @reviewDate)
 
 IF @@ERROR <> 0 
 	ROLLBACK TRAN T1
