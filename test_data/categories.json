@@ -1,0 +1,230 @@
+[
+  {
+    "catId": "1",
+    "catName": "Taiwanese"
+  },
+  {
+    "catId": "2",
+    "catName": "Shanghainese"
+  },
+  {
+    "catId": "3",
+    "catName": "Dim Sum"
+  },
+  {
+    "catId": "4",
+    "catName": "Pizza"
+  },
+  {
+    "catId": "5",
+    "catName": "Korean"
+  },
+  {
+    "catId": "6",
+    "catName": "American (New)"
+  },
+  {
+    "catId": "7",
+    "catName": "Sushi Bars"
+  },
+  {
+    "catId": "8",
+    "catName": "Chicken Wings"
+  },
+  {
+    "catId": "9",
+    "catName": "Chinese"
+  },
+  {
+    "catId": "10",
+    "catName": "Noodles"
+  },
+  {
+    "catId": "11",
+    "catName": "Hot Pot"
+  },
+  {
+    "catId": "12",
+    "catName": "Beer Bar"
+  },
+  {
+    "catId": "13",
+    "catName": "Bubble Tea"
+  },
+  {
+    "catId": "14",
+    "catName": "Italian"
+  },
+  {
+    "catId": "15",
+    "catName": "Sandwiches"
+  },
+  {
+    "catId": "16",
+    "catName": "Chicken Shop"
+  },
+  {
+    "catId": "17",
+    "catName": "Southern"
+  },
+  {
+    "catId": "18",
+    "catName": "Breakfast & Brunch"
+  },
+  {
+    "catId": "19",
+    "catName": "Cafes"
+  },
+  {
+    "catId": "20",
+    "catName": "Lounges"
+  },
+  {
+    "catId": "21",
+    "catName": "Ramen"
+  },
+  {
+    "catId": "22",
+    "catName": "Izakaya"
+  },
+  {
+    "catId": "23",
+    "catName": "Gastropubs"
+  },
+  {
+    "catId": "24",
+    "catName": "Bars"
+  },
+  {
+    "catId": "25",
+    "catName": "Indian"
+  },
+  {
+    "catId": "26",
+    "catName": "Hawaiian"
+  },
+  {
+    "catId": "27",
+    "catName": "Japanese Curry"
+  },
+  {
+    "catId": "28",
+    "catName": "Coffee & Tea"
+  },
+  {
+    "catId": "29",
+    "catName": "Asian Fusion"
+  },
+  {
+    "catId": "30",
+    "catName": "Barbeque"
+  },
+  {
+    "catId": "31",
+    "catName": "Thai"
+  },
+  {
+    "catId": "32",
+    "catName": "Mediterranean"
+  },
+  {
+    "catId": "33",
+    "catName": "Shaved Ice"
+  },
+  {
+    "catId": "34",
+    "catName": "Desserts"
+  },
+  {
+    "catId": "35",
+    "catName": "Hong Kong Style Cafe"
+  },
+  {
+    "catId": "36",
+    "catName": "Hair Salons"
+  },
+  {
+    "catId": "37",
+    "catName": "French"
+  },
+  {
+    "catId": "38",
+    "catName": "Wine Bars"
+  },
+  {
+    "catId": "39",
+    "catName": "Japanese"
+  },
+  {
+    "catId": "40",
+    "catName": "Spanish"
+  },
+  {
+    "catId": "41",
+    "catName": "Tapas/Small Plates"
+  },
+  {
+    "catId": "42",
+    "catName": "Steakhouses"
+  },
+  {
+    "catId": "43",
+    "catName": "Vietnamese"
+  },
+  {
+    "catId": "44",
+    "catName": "Bakeries"
+  },
+  {
+    "catId": "45",
+    "catName": "Creperies"
+  },
+  {
+    "catId": "46",
+    "catName": "Seafood"
+  },
+  {
+    "catId": "47",
+    "catName": "Champagne Bars"
+  },
+  {
+    "catId": "48",
+    "catName": "Comfort Food"
+  },
+  {
+    "catId": "49",
+    "catName": "Burgers"
+  },
+  {
+    "catId": "50",
+    "catName": "Vegan"
+  },
+  {
+    "catId": "51",
+    "catName": "Vegetarian"
+  },
+  {
+    "catId": "52",
+    "catName": "Cuban"
+  },
+  {
+    "catId": "53",
+    "catName": "Caribbean"
+  },
+  {
+    "catId": "54",
+    "catName": "American (Traditional)"
+  },
+  {
+    "catId": "55",
+    "catName": "African"
+  },
+  {
+    "catId": "56",
+    "catName": "Mexican"
+  },
+  {
+    "catId": "57",
+    "catName": "Cocktail Bars"
+  }
+]

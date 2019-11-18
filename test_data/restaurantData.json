@@ -1,0 +1,482 @@
+[
+  {
+    "resId": "1",
+    "resName": "Din Tai Fung",
+    "numReviews": "2115 reviews",
+    "resAddress": "2621 NE 46th St",
+    "yelpUrl": "http://yelp.com/biz/din-tai-fung-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "2",
+    "resName": "Johnny Mo's Pizzeria",
+    "numReviews": "12 reviews",
+    "resAddress": "3272 Fuhrman Ave E",
+    "yelpUrl": "http://yelp.com/biz/johnny-mos-pizzeria-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "3",
+    "resName": "Bugis",
+    "numReviews": "57 reviews",
+    "resAddress": "4241 NE University Way",
+    "yelpUrl": "http://yelp.com/biz/bugis-seattle-3",
+    "rating": "4"
+  },
+  {
+    "resId": "4",
+    "resName": "SWeL Restaurant",
+    "numReviews": "266 reviews",
+    "resAddress": "3417 Evanston Ave N",
+    "yelpUrl": "http://yelp.com/biz/swel-restaurant-seattle-2",
+    "rating": "4"
+  },
+  {
+    "resId": "5",
+    "resName": "Bamboo Sushi",
+    "numReviews": "28 reviews",
+    "resAddress": "2675 NE Village Ln",
+    "yelpUrl": "http://yelp.com/biz/bamboo-sushi-seattle",
+    "rating": "3"
+  },
+  {
+    "resId": "6",
+    "resName": "Chi Mac",
+    "numReviews": "393 reviews",
+    "resAddress": "4525 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/chi-mac-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "7",
+    "resName": "Xi'an Noodles",
+    "numReviews": "768 reviews",
+    "resAddress": "5259 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/xian-noodles-seattle-4",
+    "rating": "4"
+  },
+  {
+    "resId": "8",
+    "resName": "Eight Row",
+    "numReviews": "51 reviews",
+    "resAddress": "7102 Woodlawn Ave NE",
+    "yelpUrl": "http://yelp.com/biz/eight-row-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "9",
+    "resName": "19 GOLD",
+    "numReviews": "264 reviews",
+    "resAddress": "3601 Fremont Ave N",
+    "yelpUrl": "http://yelp.com/biz/19-gold-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "10",
+    "resName": "Brunello Ristorante",
+    "numReviews": "185 reviews",
+    "resAddress": "7115 Roosevelt Way NE",
+    "yelpUrl": "http://yelp.com/biz/brunello-ristorante-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "11",
+    "resName": "Ma'ono Fried Chicken",
+    "numReviews": "261 reviews",
+    "resAddress": "4626 26th Ave NE",
+    "yelpUrl": "http://yelp.com/biz/maono-fried-chicken-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "12",
+    "resName": "JuneBaby",
+    "numReviews": "502 reviews",
+    "resAddress": "2122 NE 65th St",
+    "yelpUrl": "http://yelp.com/biz/junebaby-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "13",
+    "resName": "Portage Bay Cafe - Roosevelt",
+    "numReviews": "2280 reviews",
+    "resAddress": "4130 Roosevelt Way NE",
+    "yelpUrl": "http://yelp.com/biz/portage-bay-cafe-roosevelt-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "14",
+    "resName": "JOEY Kitchen At University Village",
+    "numReviews": "631 reviews",
+    "resAddress": "2603 NE 46th St",
+    "yelpUrl": "http://yelp.com/biz/joey-kitchen-at-university-village-seattle-2",
+    "rating": "4"
+  },
+  {
+    "resId": "15",
+    "resName": "Little Duck",
+    "numReviews": "72 reviews",
+    "resAddress": "4100 Roosevelt Way NE",
+    "yelpUrl": "http://yelp.com/biz/little-duck-seattle-2",
+    "rating": "4"
+  },
+  {
+    "resId": "16",
+    "resName": "Yoroshiku",
+    "numReviews": "514 reviews",
+    "resAddress": "1913 N 45th St",
+    "yelpUrl": "http://yelp.com/biz/yoroshiku-seattle-4",
+    "rating": "4"
+  },
+  {
+    "resId": "17",
+    "resName": "Mamma Melina Ristorante + Pizzeria",
+    "numReviews": "650 reviews",
+    "resAddress": "5101 25th Ave NE",
+    "yelpUrl": "http://yelp.com/biz/mamma-melina-ristorante-pizzeria-seattle",
+    "rating": "3"
+  },
+  {
+    "resId": "18",
+    "resName": "Taste of India",
+    "numReviews": "1505 reviews",
+    "resAddress": "5517 Roosevelt Way NE",
+    "yelpUrl": "http://yelp.com/biz/taste-of-india-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "19",
+    "resName": "Koa",
+    "numReviews": "31 reviews",
+    "resAddress": "4754 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/koa-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "20",
+    "resName": "Chicglet",
+    "numReviews": "44 reviews",
+    "resAddress": "4135 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/chicglet-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "21",
+    "resName": "U DupBop",
+    "numReviews": "11 reviews",
+    "resAddress": "4124 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/u-dupbop-seattle",
+    "rating": "3"
+  },
+  {
+    "resId": "22",
+    "resName": "Taste of Xi'an",
+    "numReviews": "318 reviews",
+    "resAddress": "4523 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/taste-of-xian-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "23",
+    "resName": "Amazing Thai Cuisine",
+    "numReviews": "554 reviews",
+    "resAddress": "5210 Roosevelt Way NE",
+    "yelpUrl": "http://yelp.com/biz/amazing-thai-cuisine-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "24",
+    "resName": "Byrek & Baguette",
+    "numReviews": "66 reviews",
+    "resAddress": "4209 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/byrek-and-baguette-seattle-2",
+    "rating": "4"
+  },
+  {
+    "resId": "25",
+    "resName": "Snowy Village",
+    "numReviews": "173 reviews",
+    "resAddress": "5264 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/snowy-village-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "26",
+    "resName": "Charlala Hong Kong Café and Hair Studio",
+    "numReviews": "61 reviews",
+    "resAddress": "1000 NE 50th St",
+    "yelpUrl": "http://yelp.com/biz/charlala-hong-kong-caf%C3%A9-and-hair-studio-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "27",
+    "resName": "Pair",
+    "numReviews": "232 reviews",
+    "resAddress": "5501 30th Ave NE",
+    "yelpUrl": "http://yelp.com/biz/pair-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "28",
+    "resName": "The BoB",
+    "numReviews": "18 reviews",
+    "resAddress": "4131 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/the-bob-seattle",
+    "rating": "3"
+  },
+  {
+    "resId": "29",
+    "resName": "Itadakimasu",
+    "numReviews": "365 reviews",
+    "resAddress": "4743 Brooklyn Ave NE",
+    "yelpUrl": "http://yelp.com/biz/itadakimasu-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "30",
+    "resName": "Pomodoro",
+    "numReviews": "438 reviews",
+    "resAddress": "2366 Eastlake Ave E",
+    "yelpUrl": "http://yelp.com/biz/pomodoro-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "31",
+    "resName": "mkt.",
+    "numReviews": "310 reviews",
+    "resAddress": "2108 N 55th St",
+    "yelpUrl": "http://yelp.com/biz/mkt-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "32",
+    "resName": "Tapas Lab",
+    "numReviews": "134 reviews",
+    "resAddress": "7012 Woodlawn Ave NE",
+    "yelpUrl": "http://yelp.com/biz/tapas-lab-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "33",
+    "resName": "Kokkaku",
+    "numReviews": "161 reviews",
+    "resAddress": "2208 N 45th St",
+    "yelpUrl": "http://yelp.com/biz/kokkaku-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "34",
+    "resName": "Ba Bar",
+    "numReviews": "263 reviews",
+    "resAddress": "2685 NE 46th St",
+    "yelpUrl": "http://yelp.com/biz/ba-bar-seattle-7",
+    "rating": "3"
+  },
+  {
+    "resId": "35",
+    "resName": "BCZhang",
+    "numReviews": "45 reviews",
+    "resAddress": "4730 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/bczhang-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "36",
+    "resName": "Manolin",
+    "numReviews": "464 reviews",
+    "resAddress": "3621 Stone Way N",
+    "yelpUrl": "http://yelp.com/biz/manolin-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "37",
+    "resName": "Frank's Oyster House & Champagne Parlor",
+    "numReviews": "322 reviews",
+    "resAddress": "2616 NE 55th St",
+    "yelpUrl": "http://yelp.com/biz/franks-oyster-house-and-champagne-parlor-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "38",
+    "resName": "Wann Yen",
+    "numReviews": "129 reviews",
+    "resAddress": "1313 NE 43rd St",
+    "yelpUrl": "http://yelp.com/biz/wann-yen-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "39",
+    "resName": "U:Don Fresh Japanese Noodle Station",
+    "numReviews": "666 reviews",
+    "resAddress": "4515 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/u-don-fresh-japanese-noodle-station-seattle-6",
+    "rating": "4"
+  },
+  {
+    "resId": "40",
+    "resName": "Hanok",
+    "numReviews": "78 reviews",
+    "resAddress": "4021 E Madison St",
+    "yelpUrl": "http://yelp.com/biz/hanok-seattle-2",
+    "rating": "4"
+  },
+  {
+    "resId": "41",
+    "resName": "Son of A Butcher",
+    "numReviews": "69 reviews",
+    "resAddress": "2236 Eastlake Ave E",
+    "yelpUrl": "http://yelp.com/biz/son-of-a-butcher-seattle-3",
+    "rating": "3"
+  },
+  {
+    "resId": "42",
+    "resName": "Eureka!",
+    "numReviews": "658 reviews",
+    "resAddress": "2614 NE 46th St",
+    "yelpUrl": "http://yelp.com/biz/eureka-seattle-4",
+    "rating": "3"
+  },
+  {
+    "resId": "43",
+    "resName": "The Shambles",
+    "numReviews": "161 reviews",
+    "resAddress": "7777 15th Ave NE",
+    "yelpUrl": "http://yelp.com/biz/the-shambles-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "44",
+    "resName": "Araya's Place",
+    "numReviews": "380 reviews",
+    "resAddress": "5240 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/arayas-place-seattle-2",
+    "rating": "4"
+  },
+  {
+    "resId": "45",
+    "resName": "The Zouave Restaurant",
+    "numReviews": "206 reviews",
+    "resAddress": "2615 NE 65th St",
+    "yelpUrl": "http://yelp.com/biz/the-zouave-restaurant-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "46",
+    "resName": "Bongos",
+    "numReviews": "827 reviews",
+    "resAddress": "6501 Aurora Ave N",
+    "yelpUrl": "http://yelp.com/biz/bongos-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "47",
+    "resName": "Buerjia Chinese Sauerkraut Fish",
+    "numReviews": "23 reviews",
+    "resAddress": "4509 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/buerjia-chinese-sauerkraut-fish-seattle-2",
+    "rating": "4"
+  },
+  {
+    "resId": "48",
+    "resName": "Salare",
+    "numReviews": "373 reviews",
+    "resAddress": "2404 NE 65th St",
+    "yelpUrl": "http://yelp.com/biz/salare-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "49",
+    "resName": "Ivar's Salmon House",
+    "numReviews": "1206 reviews",
+    "resAddress": "401 NE Northlake Way",
+    "yelpUrl": "http://yelp.com/biz/ivars-salmon-house-seattle",
+    "rating": "3"
+  },
+  {
+    "resId": "50",
+    "resName": "Hokkaido Ramen Santouka - Seattle",
+    "numReviews": "218 reviews",
+    "resAddress": "2626 NE Village Ln",
+    "yelpUrl": "http://yelp.com/biz/hokkaido-ramen-santouka-seattle-seattle",
+    "rating": "3"
+  },
+  {
+    "resId": "51",
+    "resName": "Just Burgers",
+    "numReviews": "314 reviews",
+    "resAddress": "4510 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/just-burgers-seattle-4",
+    "rating": "4"
+  },
+  {
+    "resId": "52",
+    "resName": "Arriba Cantina",
+    "numReviews": "85 reviews",
+    "resAddress": "2316 NE 65th St",
+    "yelpUrl": "http://yelp.com/biz/arriba-cantina-seattle",
+    "rating": "4"
+  },
+  {
+    "resId": "53",
+    "resName": "Korean Tofu House",
+    "numReviews": "667 reviews",
+    "resAddress": "4142 Brooklyn Ave NE",
+    "yelpUrl": "http://yelp.com/biz/korean-tofu-house-seattle",
+    "rating": "3"
+  },
+  {
+    "resId": "54",
+    "resName": "Piatti",
+    "numReviews": "311 reviews",
+    "resAddress": "2695 NE Village Ln",
+    "yelpUrl": "http://yelp.com/biz/piatti-seattle",
+    "rating": "3"
+  },
+  {
+    "resId": "55",
+    "resName": "Urban Luxe Cafe",
+    "numReviews": "84 reviews",
+    "resAddress": "6105 Roosevelt Way NE",
+    "yelpUrl": "http://yelp.com/biz/urban-luxe-cafe-seattle",
+    "rating": "5"
+  },
+  {
+    "resId": "56",
+    "resName": "Le Messe",
+    "numReviews": "96 reviews",
+    "resAddress": "1903 Yale Pl E",
+    "yelpUrl": "http://yelp.com/biz/le-messe-seattle-2",
+    "rating": "4"
+  },
+  {
+    "resId": "57",
+    "resName": "JaK's Grill",
+    "numReviews": "428 reviews",
+    "resAddress": "3701 NE 45th St",
+    "yelpUrl": "http://yelp.com/biz/jaks-grill-seattle-2",
+    "rating": "4"
+  },
+  {
+    "resId": "58",
+    "resName": "Thai Tom",
+    "numReviews": "2149 reviews",
+    "resAddress": "4543 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/thai-tom-seattle",
+    "rating": "3"
+  },
+  {
+    "resId": "59",
+    "resName": "Westward",
+    "numReviews": "636 reviews",
+    "resAddress": "2501 N Northlake Way",
+    "yelpUrl": "http://yelp.com/biz/westward-seattle",
+    "rating": "3"
+  },
+  {
+    "resId": "60",
+    "resName": "Bok a Bok Fried Chicken",
+    "numReviews": "15 reviews",
+    "resAddress": "5201 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/bok-a-bok-fried-chicken-seattle-9",
+    "rating": "3"
+  }
+]

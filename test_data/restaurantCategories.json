@@ -1,0 +1,642 @@
+[
+  {
+    "resCatID": "1",
+    "resId": "1",
+    "catId": "1"
+  },
+  {
+    "resCatID": "2",
+    "resId": "1",
+    "catId": "2"
+  },
+  {
+    "resCatID": "3",
+    "resId": "1",
+    "catId": "3"
+  },
+  {
+    "resCatID": "4",
+    "resId": "2",
+    "catId": "4"
+  },
+  {
+    "resCatID": "5",
+    "resId": "3",
+    "catId": "5"
+  },
+  {
+    "resCatID": "6",
+    "resId": "4",
+    "catId": "6"
+  },
+  {
+    "resCatID": "7",
+    "resId": "5",
+    "catId": "7"
+  },
+  {
+    "resCatID": "8",
+    "resId": "6",
+    "catId": "5"
+  },
+  {
+    "resCatID": "9",
+    "resId": "6",
+    "catId": "8"
+  },
+  {
+    "resCatID": "10",
+    "resId": "7",
+    "catId": "9"
+  },
+  {
+    "resCatID": "11",
+    "resId": "7",
+    "catId": "10"
+  },
+  {
+    "resCatID": "12",
+    "resId": "7",
+    "catId": "11"
+  },
+  {
+    "resCatID": "13",
+    "resId": "8",
+    "catId": "6"
+  },
+  {
+    "resCatID": "14",
+    "resId": "8",
+    "catId": "12"
+  },
+  {
+    "resCatID": "15",
+    "resId": "9",
+    "catId": "1"
+  },
+  {
+    "resCatID": "16",
+    "resId": "9",
+    "catId": "13"
+  },
+  {
+    "resCatID": "17",
+    "resId": "10",
+    "catId": "14"
+  },
+  {
+    "resCatID": "18",
+    "resId": "11",
+    "catId": "15"
+  },
+  {
+    "resCatID": "19",
+    "resId": "11",
+    "catId": "16"
+  },
+  {
+    "resCatID": "20",
+    "resId": "12",
+    "catId": "17"
+  },
+  {
+    "resCatID": "21",
+    "resId": "13",
+    "catId": "6"
+  },
+  {
+    "resCatID": "22",
+    "resId": "13",
+    "catId": "18"
+  },
+  {
+    "resCatID": "23",
+    "resId": "13",
+    "catId": "19"
+  },
+  {
+    "resCatID": "24",
+    "resId": "14",
+    "catId": "6"
+  },
+  {
+    "resCatID": "25",
+    "resId": "14",
+    "catId": "20"
+  },
+  {
+    "resCatID": "26",
+    "resId": "15",
+    "catId": "9"
+  },
+  {
+    "resCatID": "27",
+    "resId": "16",
+    "catId": "21"
+  },
+  {
+    "resCatID": "28",
+    "resId": "16",
+    "catId": "22"
+  },
+  {
+    "resCatID": "29",
+    "resId": "16",
+    "catId": "23"
+  },
+  {
+    "resCatID": "30",
+    "resId": "17",
+    "catId": "14"
+  },
+  {
+    "resCatID": "31",
+    "resId": "17",
+    "catId": "4"
+  },
+  {
+    "resCatID": "32",
+    "resId": "17",
+    "catId": "24"
+  },
+  {
+    "resCatID": "33",
+    "resId": "18",
+    "catId": "25"
+  },
+  {
+    "resCatID": "34",
+    "resId": "19",
+    "catId": "26"
+  },
+  {
+    "resCatID": "35",
+    "resId": "19",
+    "catId": "27"
+  },
+  {
+    "resCatID": "36",
+    "resId": "19",
+    "catId": "28"
+  },
+  {
+    "resCatID": "37",
+    "resId": "20",
+    "catId": "5"
+  },
+  {
+    "resCatID": "38",
+    "resId": "20",
+    "catId": "8"
+  },
+  {
+    "resCatID": "39",
+    "resId": "21",
+    "catId": "29"
+  },
+  {
+    "resCatID": "40",
+    "resId": "22",
+    "catId": "9"
+  },
+  {
+    "resCatID": "41",
+    "resId": "22",
+    "catId": "30"
+  },
+  {
+    "resCatID": "42",
+    "resId": "22",
+    "catId": "10"
+  },
+  {
+    "resCatID": "43",
+    "resId": "23",
+    "catId": "31"
+  },
+  {
+    "resCatID": "44",
+    "resId": "24",
+    "catId": "32"
+  },
+  {
+    "resCatID": "45",
+    "resId": "25",
+    "catId": "33"
+  },
+  {
+    "resCatID": "46",
+    "resId": "25",
+    "catId": "34"
+  },
+  {
+    "resCatID": "47",
+    "resId": "25",
+    "catId": "19"
+  },
+  {
+    "resCatID": "48",
+    "resId": "26",
+    "catId": "35"
+  },
+  {
+    "resCatID": "49",
+    "resId": "26",
+    "catId": "36"
+  },
+  {
+    "resCatID": "50",
+    "resId": "27",
+    "catId": "6"
+  },
+  {
+    "resCatID": "51",
+    "resId": "27",
+    "catId": "37"
+  },
+  {
+    "resCatID": "52",
+    "resId": "27",
+    "catId": "38"
+  },
+  {
+    "resCatID": "53",
+    "resId": "28",
+    "catId": "5"
+  },
+  {
+    "resCatID": "54",
+    "resId": "29",
+    "catId": "5"
+  },
+  {
+    "resCatID": "55",
+    "resId": "29",
+    "catId": "39"
+  },
+  {
+    "resCatID": "56",
+    "resId": "29",
+    "catId": "26"
+  },
+  {
+    "resCatID": "57",
+    "resId": "30",
+    "catId": "14"
+  },
+  {
+    "resCatID": "58",
+    "resId": "30",
+    "catId": "40"
+  },
+  {
+    "resCatID": "59",
+    "resId": "30",
+    "catId": "41"
+  },
+  {
+    "resCatID": "60",
+    "resId": "31",
+    "catId": "6"
+  },
+  {
+    "resCatID": "61",
+    "resId": "32",
+    "catId": "41"
+  },
+  {
+    "resCatID": "62",
+    "resId": "32",
+    "catId": "40"
+  },
+  {
+    "resCatID": "63",
+    "resId": "32",
+    "catId": "29"
+  },
+  {
+    "resCatID": "64",
+    "resId": "33",
+    "catId": "6"
+  },
+  {
+    "resCatID": "65",
+    "resId": "33",
+    "catId": "39"
+  },
+  {
+    "resCatID": "66",
+    "resId": "33",
+    "catId": "42"
+  },
+  {
+    "resCatID": "67",
+    "resId": "34",
+    "catId": "43"
+  },
+  {
+    "resCatID": "68",
+    "resId": "34",
+    "catId": "44"
+  },
+  {
+    "resCatID": "69",
+    "resId": "34",
+    "catId": "24"
+  },
+  {
+    "resCatID": "70",
+    "resId": "35",
+    "catId": "9"
+  },
+  {
+    "resCatID": "71",
+    "resId": "35",
+    "catId": "45"
+  },
+  {
+    "resCatID": "72",
+    "resId": "36",
+    "catId": "46"
+  },
+  {
+    "resCatID": "73",
+    "resId": "37",
+    "catId": "6"
+  },
+  {
+    "resCatID": "74",
+    "resId": "37",
+    "catId": "46"
+  },
+  {
+    "resCatID": "75",
+    "resId": "37",
+    "catId": "47"
+  },
+  {
+    "resCatID": "76",
+    "resId": "38",
+    "catId": "34"
+  },
+  {
+    "resCatID": "77",
+    "resId": "38",
+    "catId": "31"
+  },
+  {
+    "resCatID": "78",
+    "resId": "38",
+    "catId": "48"
+  },
+  {
+    "resCatID": "79",
+    "resId": "39",
+    "catId": "39"
+  },
+  {
+    "resCatID": "80",
+    "resId": "39",
+    "catId": "10"
+  },
+  {
+    "resCatID": "81",
+    "resId": "40",
+    "catId": "5"
+  },
+  {
+    "resCatID": "82",
+    "resId": "40",
+    "catId": "29"
+  },
+  {
+    "resCatID": "83",
+    "resId": "41",
+    "catId": "5"
+  },
+  {
+    "resCatID": "84",
+    "resId": "41",
+    "catId": "30"
+  },
+  {
+    "resCatID": "85",
+    "resId": "42",
+    "catId": "6"
+  },
+  {
+    "resCatID": "86",
+    "resId": "42",
+    "catId": "49"
+  },
+  {
+    "resCatID": "87",
+    "resId": "42",
+    "catId": "24"
+  },
+  {
+    "resCatID": "88",
+    "resId": "43",
+    "catId": "12"
+  },
+  {
+    "resCatID": "89",
+    "resId": "43",
+    "catId": "6"
+  },
+  {
+    "resCatID": "90",
+    "resId": "44",
+    "catId": "31"
+  },
+  {
+    "resCatID": "91",
+    "resId": "44",
+    "catId": "50"
+  },
+  {
+    "resCatID": "92",
+    "resId": "44",
+    "catId": "51"
+  },
+  {
+    "resCatID": "93",
+    "resId": "45",
+    "catId": "14"
+  },
+  {
+    "resCatID": "94",
+    "resId": "45",
+    "catId": "37"
+  },
+  {
+    "resCatID": "95",
+    "resId": "46",
+    "catId": "52"
+  },
+  {
+    "resCatID": "96",
+    "resId": "46",
+    "catId": "53"
+  },
+  {
+    "resCatID": "97",
+    "resId": "47",
+    "catId": "9"
+  },
+  {
+    "resCatID": "98",
+    "resId": "47",
+    "catId": "46"
+  },
+  {
+    "resCatID": "99",
+    "resId": "47",
+    "catId": "34"
+  },
+  {
+    "resCatID": "100",
+    "resId": "48",
+    "catId": "54"
+  },
+  {
+    "resCatID": "101",
+    "resId": "48",
+    "catId": "53"
+  },
+  {
+    "resCatID": "102",
+    "resId": "48",
+    "catId": "55"
+  },
+  {
+    "resCatID": "103",
+    "resId": "49",
+    "catId": "46"
+  },
+  {
+    "resCatID": "104",
+    "resId": "49",
+    "catId": "20"
+  },
+  {
+    "resCatID": "105",
+    "resId": "49",
+    "catId": "54"
+  },
+  {
+    "resCatID": "106",
+    "resId": "50",
+    "catId": "21"
+  },
+  {
+    "resCatID": "107",
+    "resId": "50",
+    "catId": "10"
+  },
+  {
+    "resCatID": "108",
+    "resId": "51",
+    "catId": "49"
+  },
+  {
+    "resCatID": "109",
+    "resId": "51",
+    "catId": "54"
+  },
+  {
+    "resCatID": "110",
+    "resId": "52",
+    "catId": "56"
+  },
+  {
+    "resCatID": "111",
+    "resId": "52",
+    "catId": "24"
+  },
+  {
+    "resCatID": "112",
+    "resId": "53",
+    "catId": "5"
+  },
+  {
+    "resCatID": "113",
+    "resId": "54",
+    "catId": "14"
+  },
+  {
+    "resCatID": "114",
+    "resId": "54",
+    "catId": "4"
+  },
+  {
+    "resCatID": "115",
+    "resId": "54",
+    "catId": "34"
+  },
+  {
+    "resCatID": "116",
+    "resId": "55",
+    "catId": "28"
+  },
+  {
+    "resCatID": "117",
+    "resId": "55",
+    "catId": "32"
+  },
+  {
+    "resCatID": "118",
+    "resId": "55",
+    "catId": "57"
+  },
+  {
+    "resCatID": "119",
+    "resId": "56",
+    "catId": "14"
+  },
+  {
+    "resCatID": "120",
+    "resId": "57",
+    "catId": "42"
+  },
+  {
+    "resCatID": "121",
+    "resId": "57",
+    "catId": "54"
+  },
+  {
+    "resCatID": "122",
+    "resId": "58",
+    "catId": "31"
+  },
+  {
+    "resCatID": "123",
+    "resId": "59",
+    "catId": "6"
+  },
+  {
+    "resCatID": "124",
+    "resId": "59",
+    "catId": "46"
+  },
+  {
+    "resCatID": "125",
+    "resId": "59",
+    "catId": "34"
+  },
+  {
+    "resCatID": "126",
+    "resId": "60",
+    "catId": "8"
+  },
+  {
+    "resCatID": "127",
+    "resId": "60",
+    "catId": "16"
+  },
+  {
+    "resCatID": "128",
+    "resId": "60",
+    "catId": "15"
+  }
+]

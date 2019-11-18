@@ -1,0 +1,3250 @@
+[
+  {
+    "hourId": "1",
+    "resId": "1",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "2",
+    "resId": "1",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "3",
+    "resId": "1",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "4",
+    "resId": "1",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "5",
+    "resId": "1",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "6",
+    "resId": "1",
+    "dayOfWeek": "Sat",
+    "openTime": "10:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "7",
+    "resId": "1",
+    "dayOfWeek": "Sun",
+    "openTime": "10:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "11.500000"
+  },
+  {
+    "hourId": "8",
+    "resId": "3",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "9",
+    "resId": "3",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "10",
+    "resId": "3",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "11",
+    "resId": "3",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "12",
+    "resId": "3",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "13",
+    "resId": "3",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "14",
+    "resId": "3",
+    "dayOfWeek": "Sun",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "15",
+    "resId": "4",
+    "dayOfWeek": "Mon",
+    "openTime": "11:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "16",
+    "resId": "4",
+    "dayOfWeek": "Tue",
+    "openTime": "11:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "17",
+    "resId": "4",
+    "dayOfWeek": "Wed",
+    "openTime": "11:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "18",
+    "resId": "4",
+    "dayOfWeek": "Thu",
+    "openTime": "11:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "19",
+    "resId": "4",
+    "dayOfWeek": "Fri",
+    "openTime": "11:30:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "11.500000"
+  },
+  {
+    "hourId": "20",
+    "resId": "4",
+    "dayOfWeek": "Sat",
+    "openTime": "16:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "21",
+    "resId": "4",
+    "dayOfWeek": "Sun",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "22",
+    "resId": "5",
+    "dayOfWeek": "Mon",
+    "openTime": "16:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "4.500000"
+  },
+  {
+    "hourId": "23",
+    "resId": "5",
+    "dayOfWeek": "Tue",
+    "openTime": "16:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "4.500000"
+  },
+  {
+    "hourId": "24",
+    "resId": "5",
+    "dayOfWeek": "Wed",
+    "openTime": "16:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "4.500000"
+  },
+  {
+    "hourId": "25",
+    "resId": "5",
+    "dayOfWeek": "Thu",
+    "openTime": "16:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "4.500000"
+  },
+  {
+    "hourId": "26",
+    "resId": "5",
+    "dayOfWeek": "Fri",
+    "openTime": "16:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "27",
+    "resId": "5",
+    "dayOfWeek": "Sat",
+    "openTime": "16:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "28",
+    "resId": "5",
+    "dayOfWeek": "Sun",
+    "openTime": "16:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "4.500000"
+  },
+  {
+    "hourId": "29",
+    "resId": "6",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "30",
+    "resId": "6",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "31",
+    "resId": "6",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "32",
+    "resId": "6",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "33",
+    "resId": "6",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "34",
+    "resId": "6",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "35",
+    "resId": "6",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "36",
+    "resId": "7",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "37",
+    "resId": "7",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "38",
+    "resId": "7",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "39",
+    "resId": "7",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "40",
+    "resId": "7",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "41",
+    "resId": "7",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "42",
+    "resId": "7",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "43",
+    "resId": "8",
+    "dayOfWeek": "Mon",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "44",
+    "resId": "8",
+    "dayOfWeek": "Tue",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "45",
+    "resId": "8",
+    "dayOfWeek": "Wed",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "46",
+    "resId": "8",
+    "dayOfWeek": "Thu",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "47",
+    "resId": "8",
+    "dayOfWeek": "Fri",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "48",
+    "resId": "8",
+    "dayOfWeek": "Sat",
+    "openTime": "10:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "49",
+    "resId": "8",
+    "dayOfWeek": "Sun",
+    "openTime": "10:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "50",
+    "resId": "9",
+    "dayOfWeek": "Mon",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "51",
+    "resId": "9",
+    "dayOfWeek": "Tue",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "52",
+    "resId": "9",
+    "dayOfWeek": "Wed",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "53",
+    "resId": "9",
+    "dayOfWeek": "Thu",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "54",
+    "resId": "9",
+    "dayOfWeek": "Fri",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "55",
+    "resId": "9",
+    "dayOfWeek": "Sat",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "56",
+    "resId": "9",
+    "dayOfWeek": "Sun",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "57",
+    "resId": "10",
+    "dayOfWeek": "Mon",
+    "openTime": "16:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "58",
+    "resId": "10",
+    "dayOfWeek": "Tue",
+    "openTime": "16:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "59",
+    "resId": "10",
+    "dayOfWeek": "Wed",
+    "openTime": "16:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "60",
+    "resId": "10",
+    "dayOfWeek": "Thu",
+    "openTime": "16:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "61",
+    "resId": "10",
+    "dayOfWeek": "Fri",
+    "openTime": "16:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "62",
+    "resId": "10",
+    "dayOfWeek": "Sat",
+    "openTime": "16:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "63",
+    "resId": "10",
+    "dayOfWeek": "Sun",
+    "openTime": "16:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "64",
+    "resId": "11",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "65",
+    "resId": "11",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "66",
+    "resId": "11",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "67",
+    "resId": "11",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "68",
+    "resId": "11",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "69",
+    "resId": "11",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "70",
+    "resId": "11",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "71",
+    "resId": "12",
+    "dayOfWeek": "Mon",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "72",
+    "resId": "12",
+    "dayOfWeek": "Tue",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "73",
+    "resId": "12",
+    "dayOfWeek": "Wed",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "74",
+    "resId": "12",
+    "dayOfWeek": "Thu",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "75",
+    "resId": "12",
+    "dayOfWeek": "Fri",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "76",
+    "resId": "12",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "77",
+    "resId": "12",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "78",
+    "resId": "13",
+    "dayOfWeek": "Mon",
+    "openTime": "07:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "79",
+    "resId": "13",
+    "dayOfWeek": "Tue",
+    "openTime": "07:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "80",
+    "resId": "13",
+    "dayOfWeek": "Wed",
+    "openTime": "07:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "81",
+    "resId": "13",
+    "dayOfWeek": "Thu",
+    "openTime": "07:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "82",
+    "resId": "13",
+    "dayOfWeek": "Fri",
+    "openTime": "07:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "83",
+    "resId": "13",
+    "dayOfWeek": "Sat",
+    "openTime": "07:30:00",
+    "closeTime": "14:30:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "84",
+    "resId": "13",
+    "dayOfWeek": "Sun",
+    "openTime": "07:30:00",
+    "closeTime": "14:30:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "85",
+    "resId": "14",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "01:00:00",
+    "hoursOpen": "-10.000000"
+  },
+  {
+    "hourId": "86",
+    "resId": "14",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "01:00:00",
+    "hoursOpen": "-10.000000"
+  },
+  {
+    "hourId": "87",
+    "resId": "14",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "01:00:00",
+    "hoursOpen": "-10.000000"
+  },
+  {
+    "hourId": "88",
+    "resId": "14",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "01:00:00",
+    "hoursOpen": "-10.000000"
+  },
+  {
+    "hourId": "89",
+    "resId": "14",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "01:00:00",
+    "hoursOpen": "-10.000000"
+  },
+  {
+    "hourId": "90",
+    "resId": "14",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "01:00:00",
+    "hoursOpen": "-10.000000"
+  },
+  {
+    "hourId": "91",
+    "resId": "14",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "01:00:00",
+    "hoursOpen": "-10.000000"
+  },
+  {
+    "hourId": "92",
+    "resId": "15",
+    "dayOfWeek": "Mon",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "93",
+    "resId": "15",
+    "dayOfWeek": "Tue",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "94",
+    "resId": "15",
+    "dayOfWeek": "Wed",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "95",
+    "resId": "15",
+    "dayOfWeek": "Thu",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "96",
+    "resId": "15",
+    "dayOfWeek": "Fri",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "97",
+    "resId": "15",
+    "dayOfWeek": "Sat",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "98",
+    "resId": "15",
+    "dayOfWeek": "Sun",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "99",
+    "resId": "16",
+    "dayOfWeek": "Mon",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "100",
+    "resId": "16",
+    "dayOfWeek": "Tue",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "101",
+    "resId": "16",
+    "dayOfWeek": "Wed",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "102",
+    "resId": "16",
+    "dayOfWeek": "Thu",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "103",
+    "resId": "16",
+    "dayOfWeek": "Fri",
+    "openTime": "17:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "104",
+    "resId": "16",
+    "dayOfWeek": "Sat",
+    "openTime": "17:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "105",
+    "resId": "16",
+    "dayOfWeek": "Sun",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "106",
+    "resId": "17",
+    "dayOfWeek": "Mon",
+    "openTime": "11:30:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "11.500000"
+  },
+  {
+    "hourId": "107",
+    "resId": "17",
+    "dayOfWeek": "Tue",
+    "openTime": "11:30:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "11.500000"
+  },
+  {
+    "hourId": "108",
+    "resId": "17",
+    "dayOfWeek": "Wed",
+    "openTime": "11:30:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "11.500000"
+  },
+  {
+    "hourId": "109",
+    "resId": "17",
+    "dayOfWeek": "Thu",
+    "openTime": "11:30:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "11.500000"
+  },
+  {
+    "hourId": "110",
+    "resId": "17",
+    "dayOfWeek": "Fri",
+    "openTime": "11:30:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "11.500000"
+  },
+  {
+    "hourId": "111",
+    "resId": "17",
+    "dayOfWeek": "Sat",
+    "openTime": "11:30:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "11.500000"
+  },
+  {
+    "hourId": "112",
+    "resId": "17",
+    "dayOfWeek": "Sun",
+    "openTime": "11:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "113",
+    "resId": "18",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "114",
+    "resId": "18",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "115",
+    "resId": "18",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "116",
+    "resId": "18",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "117",
+    "resId": "18",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "118",
+    "resId": "18",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "119",
+    "resId": "18",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "120",
+    "resId": "19",
+    "dayOfWeek": "Mon",
+    "openTime": "10:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "4.000000"
+  },
+  {
+    "hourId": "121",
+    "resId": "19",
+    "dayOfWeek": "Tue",
+    "openTime": "10:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "4.000000"
+  },
+  {
+    "hourId": "122",
+    "resId": "19",
+    "dayOfWeek": "Wed",
+    "openTime": "10:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "4.000000"
+  },
+  {
+    "hourId": "123",
+    "resId": "19",
+    "dayOfWeek": "Thu",
+    "openTime": "10:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "4.000000"
+  },
+  {
+    "hourId": "124",
+    "resId": "19",
+    "dayOfWeek": "Fri",
+    "openTime": "10:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "4.000000"
+  },
+  {
+    "hourId": "125",
+    "resId": "19",
+    "dayOfWeek": "Sat",
+    "openTime": "10:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "4.000000"
+  },
+  {
+    "hourId": "126",
+    "resId": "19",
+    "dayOfWeek": "Sun",
+    "openTime": "10:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "4.000000"
+  },
+  {
+    "hourId": "127",
+    "resId": "20",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "128",
+    "resId": "20",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "129",
+    "resId": "20",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "130",
+    "resId": "20",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "131",
+    "resId": "20",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "132",
+    "resId": "20",
+    "dayOfWeek": "Sat",
+    "openTime": "12:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "133",
+    "resId": "20",
+    "dayOfWeek": "Sun",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "134",
+    "resId": "21",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "135",
+    "resId": "21",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "136",
+    "resId": "21",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "137",
+    "resId": "21",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "138",
+    "resId": "21",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "01:00:00",
+    "hoursOpen": "-10.000000"
+  },
+  {
+    "hourId": "139",
+    "resId": "21",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "01:00:00",
+    "hoursOpen": "-10.000000"
+  },
+  {
+    "hourId": "140",
+    "resId": "21",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "141",
+    "resId": "22",
+    "dayOfWeek": "Mon",
+    "openTime": "11:45:00",
+    "closeTime": "14:45:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "142",
+    "resId": "22",
+    "dayOfWeek": "Tue",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "143",
+    "resId": "22",
+    "dayOfWeek": "Wed",
+    "openTime": "11:45:00",
+    "closeTime": "14:45:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "144",
+    "resId": "22",
+    "dayOfWeek": "Thu",
+    "openTime": "11:45:00",
+    "closeTime": "14:45:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "145",
+    "resId": "22",
+    "dayOfWeek": "Fri",
+    "openTime": "11:45:00",
+    "closeTime": "14:45:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "146",
+    "resId": "22",
+    "dayOfWeek": "Sat",
+    "openTime": "11:45:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "9.750000"
+  },
+  {
+    "hourId": "147",
+    "resId": "22",
+    "dayOfWeek": "Sun",
+    "openTime": "11:45:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "9.750000"
+  },
+  {
+    "hourId": "148",
+    "resId": "23",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "149",
+    "resId": "23",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "150",
+    "resId": "23",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "151",
+    "resId": "23",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "152",
+    "resId": "23",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "153",
+    "resId": "23",
+    "dayOfWeek": "Sat",
+    "openTime": "17:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "4.500000"
+  },
+  {
+    "hourId": "154",
+    "resId": "23",
+    "dayOfWeek": "Sun",
+    "openTime": "17:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "4.500000"
+  },
+  {
+    "hourId": "155",
+    "resId": "24",
+    "dayOfWeek": "Mon",
+    "openTime": "08:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "14.000000"
+  },
+  {
+    "hourId": "156",
+    "resId": "24",
+    "dayOfWeek": "Tue",
+    "openTime": "08:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "14.000000"
+  },
+  {
+    "hourId": "157",
+    "resId": "24",
+    "dayOfWeek": "Wed",
+    "openTime": "08:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "14.000000"
+  },
+  {
+    "hourId": "158",
+    "resId": "24",
+    "dayOfWeek": "Thu",
+    "openTime": "08:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "14.000000"
+  },
+  {
+    "hourId": "159",
+    "resId": "24",
+    "dayOfWeek": "Fri",
+    "openTime": "08:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "14.000000"
+  },
+  {
+    "hourId": "160",
+    "resId": "24",
+    "dayOfWeek": "Sat",
+    "openTime": "08:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "14.000000"
+  },
+  {
+    "hourId": "161",
+    "resId": "24",
+    "dayOfWeek": "Sun",
+    "openTime": "08:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "14.000000"
+  },
+  {
+    "hourId": "162",
+    "resId": "25",
+    "dayOfWeek": "Mon",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "163",
+    "resId": "25",
+    "dayOfWeek": "Tue",
+    "openTime": "14:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "8.000000"
+  },
+  {
+    "hourId": "164",
+    "resId": "25",
+    "dayOfWeek": "Wed",
+    "openTime": "14:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "8.000000"
+  },
+  {
+    "hourId": "165",
+    "resId": "25",
+    "dayOfWeek": "Thu",
+    "openTime": "14:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "8.000000"
+  },
+  {
+    "hourId": "166",
+    "resId": "25",
+    "dayOfWeek": "Fri",
+    "openTime": "14:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "-14.000000"
+  },
+  {
+    "hourId": "167",
+    "resId": "25",
+    "dayOfWeek": "Sat",
+    "openTime": "13:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "-13.000000"
+  },
+  {
+    "hourId": "168",
+    "resId": "25",
+    "dayOfWeek": "Sun",
+    "openTime": "13:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "169",
+    "resId": "26",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "170",
+    "resId": "26",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "171",
+    "resId": "26",
+    "dayOfWeek": "Wed",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "172",
+    "resId": "26",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "173",
+    "resId": "26",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "174",
+    "resId": "26",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "175",
+    "resId": "26",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "176",
+    "resId": "27",
+    "dayOfWeek": "Mon",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "177",
+    "resId": "27",
+    "dayOfWeek": "Tue",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "178",
+    "resId": "27",
+    "dayOfWeek": "Wed",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "179",
+    "resId": "27",
+    "dayOfWeek": "Thu",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "180",
+    "resId": "27",
+    "dayOfWeek": "Fri",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "181",
+    "resId": "27",
+    "dayOfWeek": "Sat",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "182",
+    "resId": "27",
+    "dayOfWeek": "Sun",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "183",
+    "resId": "29",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "184",
+    "resId": "29",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "185",
+    "resId": "29",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "186",
+    "resId": "29",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "187",
+    "resId": "29",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "188",
+    "resId": "29",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "189",
+    "resId": "29",
+    "dayOfWeek": "Sun",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "190",
+    "resId": "30",
+    "dayOfWeek": "Mon",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "191",
+    "resId": "30",
+    "dayOfWeek": "Tue",
+    "openTime": "17:30:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "192",
+    "resId": "30",
+    "dayOfWeek": "Wed",
+    "openTime": "17:30:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "193",
+    "resId": "30",
+    "dayOfWeek": "Thu",
+    "openTime": "17:30:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "194",
+    "resId": "30",
+    "dayOfWeek": "Fri",
+    "openTime": "17:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "-17.000000"
+  },
+  {
+    "hourId": "195",
+    "resId": "30",
+    "dayOfWeek": "Sat",
+    "openTime": "17:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "-17.000000"
+  },
+  {
+    "hourId": "196",
+    "resId": "30",
+    "dayOfWeek": "Sun",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "197",
+    "resId": "31",
+    "dayOfWeek": "Mon",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "198",
+    "resId": "31",
+    "dayOfWeek": "Tue",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "199",
+    "resId": "31",
+    "dayOfWeek": "Wed",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "200",
+    "resId": "31",
+    "dayOfWeek": "Thu",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "201",
+    "resId": "31",
+    "dayOfWeek": "Fri",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "202",
+    "resId": "31",
+    "dayOfWeek": "Sat",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "203",
+    "resId": "31",
+    "dayOfWeek": "Sun",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "204",
+    "resId": "32",
+    "dayOfWeek": "Mon",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "205",
+    "resId": "32",
+    "dayOfWeek": "Tue",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "206",
+    "resId": "32",
+    "dayOfWeek": "Wed",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "207",
+    "resId": "32",
+    "dayOfWeek": "Thu",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "208",
+    "resId": "32",
+    "dayOfWeek": "Fri",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "209",
+    "resId": "32",
+    "dayOfWeek": "Sat",
+    "openTime": "15:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "210",
+    "resId": "32",
+    "dayOfWeek": "Sun",
+    "openTime": "15:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "211",
+    "resId": "33",
+    "dayOfWeek": "Mon",
+    "openTime": "16:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "212",
+    "resId": "33",
+    "dayOfWeek": "Tue",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "213",
+    "resId": "33",
+    "dayOfWeek": "Wed",
+    "openTime": "16:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "214",
+    "resId": "33",
+    "dayOfWeek": "Thu",
+    "openTime": "16:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "215",
+    "resId": "33",
+    "dayOfWeek": "Fri",
+    "openTime": "16:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "216",
+    "resId": "33",
+    "dayOfWeek": "Sat",
+    "openTime": "16:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "217",
+    "resId": "33",
+    "dayOfWeek": "Sun",
+    "openTime": "16:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "4.500000"
+  },
+  {
+    "hourId": "218",
+    "resId": "34",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "219",
+    "resId": "34",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "220",
+    "resId": "34",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "221",
+    "resId": "34",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "222",
+    "resId": "34",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "223",
+    "resId": "34",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "224",
+    "resId": "34",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "225",
+    "resId": "35",
+    "dayOfWeek": "Mon",
+    "openTime": "10:00:00",
+    "closeTime": "20:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "226",
+    "resId": "35",
+    "dayOfWeek": "Tue",
+    "openTime": "10:00:00",
+    "closeTime": "20:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "227",
+    "resId": "35",
+    "dayOfWeek": "Wed",
+    "openTime": "10:00:00",
+    "closeTime": "20:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "228",
+    "resId": "35",
+    "dayOfWeek": "Thu",
+    "openTime": "10:00:00",
+    "closeTime": "20:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "229",
+    "resId": "35",
+    "dayOfWeek": "Fri",
+    "openTime": "10:00:00",
+    "closeTime": "23:45:00",
+    "hoursOpen": "13.750000"
+  },
+  {
+    "hourId": "230",
+    "resId": "35",
+    "dayOfWeek": "Sat",
+    "openTime": "10:00:00",
+    "closeTime": "23:45:00",
+    "hoursOpen": "13.750000"
+  },
+  {
+    "hourId": "231",
+    "resId": "35",
+    "dayOfWeek": "Sun",
+    "openTime": "10:00:00",
+    "closeTime": "20:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "232",
+    "resId": "36",
+    "dayOfWeek": "Mon",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "233",
+    "resId": "36",
+    "dayOfWeek": "Tue",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "234",
+    "resId": "36",
+    "dayOfWeek": "Wed",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "235",
+    "resId": "36",
+    "dayOfWeek": "Thu",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "236",
+    "resId": "36",
+    "dayOfWeek": "Fri",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "237",
+    "resId": "36",
+    "dayOfWeek": "Sat",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "238",
+    "resId": "36",
+    "dayOfWeek": "Sun",
+    "openTime": "16:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "239",
+    "resId": "37",
+    "dayOfWeek": "Mon",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "240",
+    "resId": "37",
+    "dayOfWeek": "Tue",
+    "openTime": "17:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "241",
+    "resId": "37",
+    "dayOfWeek": "Wed",
+    "openTime": "17:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "242",
+    "resId": "37",
+    "dayOfWeek": "Thu",
+    "openTime": "17:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "243",
+    "resId": "37",
+    "dayOfWeek": "Fri",
+    "openTime": "17:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "244",
+    "resId": "37",
+    "dayOfWeek": "Sat",
+    "openTime": "10:00:00",
+    "closeTime": "14:30:00",
+    "hoursOpen": "4.500000"
+  },
+  {
+    "hourId": "245",
+    "resId": "37",
+    "dayOfWeek": "Sun",
+    "openTime": "10:00:00",
+    "closeTime": "14:30:00",
+    "hoursOpen": "4.500000"
+  },
+  {
+    "hourId": "246",
+    "resId": "38",
+    "dayOfWeek": "Mon",
+    "openTime": "12:00:00",
+    "closeTime": "19:00:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "247",
+    "resId": "38",
+    "dayOfWeek": "Tue",
+    "openTime": "12:00:00",
+    "closeTime": "19:00:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "248",
+    "resId": "38",
+    "dayOfWeek": "Wed",
+    "openTime": "12:00:00",
+    "closeTime": "19:00:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "249",
+    "resId": "38",
+    "dayOfWeek": "Thu",
+    "openTime": "12:00:00",
+    "closeTime": "19:00:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "250",
+    "resId": "38",
+    "dayOfWeek": "Fri",
+    "openTime": "12:00:00",
+    "closeTime": "19:00:00",
+    "hoursOpen": "7.000000"
+  },
+  {
+    "hourId": "251",
+    "resId": "38",
+    "dayOfWeek": "Sat",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "252",
+    "resId": "38",
+    "dayOfWeek": "Sun",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "253",
+    "resId": "39",
+    "dayOfWeek": "Mon",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "254",
+    "resId": "39",
+    "dayOfWeek": "Tue",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "255",
+    "resId": "39",
+    "dayOfWeek": "Wed",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "256",
+    "resId": "39",
+    "dayOfWeek": "Thu",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "257",
+    "resId": "39",
+    "dayOfWeek": "Fri",
+    "openTime": "11:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "258",
+    "resId": "39",
+    "dayOfWeek": "Sat",
+    "openTime": "11:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "259",
+    "resId": "39",
+    "dayOfWeek": "Sun",
+    "openTime": "11:30:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "260",
+    "resId": "40",
+    "dayOfWeek": "Mon",
+    "openTime": "17:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "4.000000"
+  },
+  {
+    "hourId": "261",
+    "resId": "40",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "262",
+    "resId": "40",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "263",
+    "resId": "40",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "264",
+    "resId": "40",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "265",
+    "resId": "40",
+    "dayOfWeek": "Sat",
+    "openTime": "12:00:00",
+    "closeTime": "15:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "266",
+    "resId": "40",
+    "dayOfWeek": "Sun",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "267",
+    "resId": "41",
+    "dayOfWeek": "Mon",
+    "openTime": "05:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "18.000000"
+  },
+  {
+    "hourId": "268",
+    "resId": "41",
+    "dayOfWeek": "Tue",
+    "openTime": "05:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "18.000000"
+  },
+  {
+    "hourId": "269",
+    "resId": "41",
+    "dayOfWeek": "Wed",
+    "openTime": "05:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "18.000000"
+  },
+  {
+    "hourId": "270",
+    "resId": "41",
+    "dayOfWeek": "Thu",
+    "openTime": "05:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "18.000000"
+  },
+  {
+    "hourId": "271",
+    "resId": "41",
+    "dayOfWeek": "Fri",
+    "openTime": "05:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "18.000000"
+  },
+  {
+    "hourId": "272",
+    "resId": "41",
+    "dayOfWeek": "Sat",
+    "openTime": "05:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "18.000000"
+  },
+  {
+    "hourId": "273",
+    "resId": "41",
+    "dayOfWeek": "Sun",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "274",
+    "resId": "42",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "275",
+    "resId": "42",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "276",
+    "resId": "42",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "277",
+    "resId": "42",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "278",
+    "resId": "42",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "-11.000000"
+  },
+  {
+    "hourId": "279",
+    "resId": "42",
+    "dayOfWeek": "Sat",
+    "openTime": "10:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "-10.000000"
+  },
+  {
+    "hourId": "280",
+    "resId": "42",
+    "dayOfWeek": "Sun",
+    "openTime": "10:00:00",
+    "closeTime": "23:00:00",
+    "hoursOpen": "13.000000"
+  },
+  {
+    "hourId": "281",
+    "resId": "43",
+    "dayOfWeek": "Mon",
+    "openTime": "12:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.000000"
+  },
+  {
+    "hourId": "282",
+    "resId": "43",
+    "dayOfWeek": "Tue",
+    "openTime": "12:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.000000"
+  },
+  {
+    "hourId": "283",
+    "resId": "43",
+    "dayOfWeek": "Wed",
+    "openTime": "12:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.000000"
+  },
+  {
+    "hourId": "284",
+    "resId": "43",
+    "dayOfWeek": "Thu",
+    "openTime": "12:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.000000"
+  },
+  {
+    "hourId": "285",
+    "resId": "43",
+    "dayOfWeek": "Fri",
+    "openTime": "12:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "286",
+    "resId": "43",
+    "dayOfWeek": "Sat",
+    "openTime": "10:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "287",
+    "resId": "43",
+    "dayOfWeek": "Sun",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "288",
+    "resId": "44",
+    "dayOfWeek": "Mon",
+    "openTime": "11:30:00",
+    "closeTime": "15:00:00",
+    "hoursOpen": "3.500000"
+  },
+  {
+    "hourId": "289",
+    "resId": "44",
+    "dayOfWeek": "Tue",
+    "openTime": "11:30:00",
+    "closeTime": "15:00:00",
+    "hoursOpen": "3.500000"
+  },
+  {
+    "hourId": "290",
+    "resId": "44",
+    "dayOfWeek": "Wed",
+    "openTime": "11:30:00",
+    "closeTime": "15:00:00",
+    "hoursOpen": "3.500000"
+  },
+  {
+    "hourId": "291",
+    "resId": "44",
+    "dayOfWeek": "Thu",
+    "openTime": "11:30:00",
+    "closeTime": "15:00:00",
+    "hoursOpen": "3.500000"
+  },
+  {
+    "hourId": "292",
+    "resId": "44",
+    "dayOfWeek": "Fri",
+    "openTime": "11:30:00",
+    "closeTime": "15:00:00",
+    "hoursOpen": "3.500000"
+  },
+  {
+    "hourId": "293",
+    "resId": "44",
+    "dayOfWeek": "Sat",
+    "openTime": "11:30:00",
+    "closeTime": "15:00:00",
+    "hoursOpen": "3.500000"
+  },
+  {
+    "hourId": "294",
+    "resId": "44",
+    "dayOfWeek": "Sun",
+    "openTime": "11:30:00",
+    "closeTime": "15:00:00",
+    "hoursOpen": "3.500000"
+  },
+  {
+    "hourId": "295",
+    "resId": "45",
+    "dayOfWeek": "Mon",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "296",
+    "resId": "45",
+    "dayOfWeek": "Tue",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "297",
+    "resId": "45",
+    "dayOfWeek": "Wed",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "298",
+    "resId": "45",
+    "dayOfWeek": "Thu",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "299",
+    "resId": "45",
+    "dayOfWeek": "Fri",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "300",
+    "resId": "45",
+    "dayOfWeek": "Sat",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "301",
+    "resId": "45",
+    "dayOfWeek": "Sun",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "302",
+    "resId": "46",
+    "dayOfWeek": "Mon",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "303",
+    "resId": "46",
+    "dayOfWeek": "Tue",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "304",
+    "resId": "46",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "305",
+    "resId": "46",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "306",
+    "resId": "46",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "307",
+    "resId": "46",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "308",
+    "resId": "46",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "309",
+    "resId": "47",
+    "dayOfWeek": "Mon",
+    "openTime": "11:30:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "2.500000"
+  },
+  {
+    "hourId": "310",
+    "resId": "47",
+    "dayOfWeek": "Tue",
+    "openTime": "11:30:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "2.500000"
+  },
+  {
+    "hourId": "311",
+    "resId": "47",
+    "dayOfWeek": "Wed",
+    "openTime": "11:30:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "2.500000"
+  },
+  {
+    "hourId": "312",
+    "resId": "47",
+    "dayOfWeek": "Thu",
+    "openTime": "11:30:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "2.500000"
+  },
+  {
+    "hourId": "313",
+    "resId": "47",
+    "dayOfWeek": "Fri",
+    "openTime": "11:30:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "2.500000"
+  },
+  {
+    "hourId": "314",
+    "resId": "47",
+    "dayOfWeek": "Sat",
+    "openTime": "11:30:00",
+    "closeTime": "15:00:00",
+    "hoursOpen": "3.500000"
+  },
+  {
+    "hourId": "315",
+    "resId": "47",
+    "dayOfWeek": "Sun",
+    "openTime": "11:30:00",
+    "closeTime": "15:00:00",
+    "hoursOpen": "3.500000"
+  },
+  {
+    "hourId": "316",
+    "resId": "48",
+    "dayOfWeek": "Mon",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "317",
+    "resId": "48",
+    "dayOfWeek": "Tue",
+    "openTime": "00:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "0.000000"
+  },
+  {
+    "hourId": "318",
+    "resId": "48",
+    "dayOfWeek": "Wed",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "319",
+    "resId": "48",
+    "dayOfWeek": "Thu",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "320",
+    "resId": "48",
+    "dayOfWeek": "Fri",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "321",
+    "resId": "48",
+    "dayOfWeek": "Sat",
+    "openTime": "10:00:00",
+    "closeTime": "13:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "322",
+    "resId": "48",
+    "dayOfWeek": "Sun",
+    "openTime": "10:00:00",
+    "closeTime": "13:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "323",
+    "resId": "49",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "324",
+    "resId": "49",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "325",
+    "resId": "49",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "326",
+    "resId": "49",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "327",
+    "resId": "49",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "328",
+    "resId": "49",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "329",
+    "resId": "49",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "330",
+    "resId": "50",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "331",
+    "resId": "50",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "332",
+    "resId": "50",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "333",
+    "resId": "50",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "334",
+    "resId": "50",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "335",
+    "resId": "50",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "336",
+    "resId": "50",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "337",
+    "resId": "51",
+    "dayOfWeek": "Mon",
+    "openTime": "10:30:00",
+    "closeTime": "23:30:00",
+    "hoursOpen": "13.000000"
+  },
+  {
+    "hourId": "338",
+    "resId": "51",
+    "dayOfWeek": "Tue",
+    "openTime": "10:30:00",
+    "closeTime": "23:30:00",
+    "hoursOpen": "13.000000"
+  },
+  {
+    "hourId": "339",
+    "resId": "51",
+    "dayOfWeek": "Wed",
+    "openTime": "10:30:00",
+    "closeTime": "23:30:00",
+    "hoursOpen": "13.000000"
+  },
+  {
+    "hourId": "340",
+    "resId": "51",
+    "dayOfWeek": "Thu",
+    "openTime": "10:30:00",
+    "closeTime": "23:30:00",
+    "hoursOpen": "13.000000"
+  },
+  {
+    "hourId": "341",
+    "resId": "51",
+    "dayOfWeek": "Fri",
+    "openTime": "10:30:00",
+    "closeTime": "23:30:00",
+    "hoursOpen": "13.000000"
+  },
+  {
+    "hourId": "342",
+    "resId": "51",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "23:30:00",
+    "hoursOpen": "12.500000"
+  },
+  {
+    "hourId": "343",
+    "resId": "51",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "23:30:00",
+    "hoursOpen": "12.500000"
+  },
+  {
+    "hourId": "344",
+    "resId": "52",
+    "dayOfWeek": "Mon",
+    "openTime": "16:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "345",
+    "resId": "52",
+    "dayOfWeek": "Tue",
+    "openTime": "16:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "346",
+    "resId": "52",
+    "dayOfWeek": "Wed",
+    "openTime": "16:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "347",
+    "resId": "52",
+    "dayOfWeek": "Thu",
+    "openTime": "16:00:00",
+    "closeTime": "21:30:00",
+    "hoursOpen": "5.500000"
+  },
+  {
+    "hourId": "348",
+    "resId": "52",
+    "dayOfWeek": "Fri",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "349",
+    "resId": "52",
+    "dayOfWeek": "Sat",
+    "openTime": "10:00:00",
+    "closeTime": "00:00:00",
+    "hoursOpen": "-10.000000"
+  },
+  {
+    "hourId": "350",
+    "resId": "52",
+    "dayOfWeek": "Sun",
+    "openTime": "00:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "21.000000"
+  },
+  {
+    "hourId": "351",
+    "resId": "53",
+    "dayOfWeek": "Mon",
+    "openTime": "11:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.500000"
+  },
+  {
+    "hourId": "352",
+    "resId": "53",
+    "dayOfWeek": "Tue",
+    "openTime": "11:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.500000"
+  },
+  {
+    "hourId": "353",
+    "resId": "53",
+    "dayOfWeek": "Wed",
+    "openTime": "11:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.500000"
+  },
+  {
+    "hourId": "354",
+    "resId": "53",
+    "dayOfWeek": "Thu",
+    "openTime": "11:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.500000"
+  },
+  {
+    "hourId": "355",
+    "resId": "53",
+    "dayOfWeek": "Fri",
+    "openTime": "11:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.500000"
+  },
+  {
+    "hourId": "356",
+    "resId": "53",
+    "dayOfWeek": "Sat",
+    "openTime": "11:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.500000"
+  },
+  {
+    "hourId": "357",
+    "resId": "53",
+    "dayOfWeek": "Sun",
+    "openTime": "11:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.500000"
+  },
+  {
+    "hourId": "358",
+    "resId": "54",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "359",
+    "resId": "54",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "360",
+    "resId": "54",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "361",
+    "resId": "54",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "362",
+    "resId": "54",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "363",
+    "resId": "54",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "364",
+    "resId": "54",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "10.000000"
+  },
+  {
+    "hourId": "365",
+    "resId": "55",
+    "dayOfWeek": "Mon",
+    "openTime": "10:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "366",
+    "resId": "55",
+    "dayOfWeek": "Tue",
+    "openTime": "10:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "367",
+    "resId": "55",
+    "dayOfWeek": "Wed",
+    "openTime": "10:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "368",
+    "resId": "55",
+    "dayOfWeek": "Thu",
+    "openTime": "10:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "369",
+    "resId": "55",
+    "dayOfWeek": "Fri",
+    "openTime": "10:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "370",
+    "resId": "55",
+    "dayOfWeek": "Sat",
+    "openTime": "10:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "371",
+    "resId": "55",
+    "dayOfWeek": "Sun",
+    "openTime": "10:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "372",
+    "resId": "56",
+    "dayOfWeek": "Mon",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "373",
+    "resId": "56",
+    "dayOfWeek": "Tue",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "374",
+    "resId": "56",
+    "dayOfWeek": "Wed",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "375",
+    "resId": "56",
+    "dayOfWeek": "Thu",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "376",
+    "resId": "56",
+    "dayOfWeek": "Fri",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "377",
+    "resId": "56",
+    "dayOfWeek": "Sat",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "378",
+    "resId": "56",
+    "dayOfWeek": "Sun",
+    "openTime": "17:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "379",
+    "resId": "57",
+    "dayOfWeek": "Mon",
+    "openTime": "17:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "4.000000"
+  },
+  {
+    "hourId": "380",
+    "resId": "57",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "381",
+    "resId": "57",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "382",
+    "resId": "57",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "383",
+    "resId": "57",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "3.000000"
+  },
+  {
+    "hourId": "384",
+    "resId": "57",
+    "dayOfWeek": "Sat",
+    "openTime": "09:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "385",
+    "resId": "57",
+    "dayOfWeek": "Sun",
+    "openTime": "09:00:00",
+    "closeTime": "14:00:00",
+    "hoursOpen": "5.000000"
+  },
+  {
+    "hourId": "386",
+    "resId": "58",
+    "dayOfWeek": "Mon",
+    "openTime": "11:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.500000"
+  },
+  {
+    "hourId": "387",
+    "resId": "58",
+    "dayOfWeek": "Tue",
+    "openTime": "11:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.500000"
+  },
+  {
+    "hourId": "388",
+    "resId": "58",
+    "dayOfWeek": "Wed",
+    "openTime": "11:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.500000"
+  },
+  {
+    "hourId": "389",
+    "resId": "58",
+    "dayOfWeek": "Thu",
+    "openTime": "11:30:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.500000"
+  },
+  {
+    "hourId": "390",
+    "resId": "58",
+    "dayOfWeek": "Fri",
+    "openTime": "11:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "391",
+    "resId": "58",
+    "dayOfWeek": "Sat",
+    "openTime": "11:30:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "10.500000"
+  },
+  {
+    "hourId": "392",
+    "resId": "58",
+    "dayOfWeek": "Sun",
+    "openTime": "12:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "9.000000"
+  },
+  {
+    "hourId": "393",
+    "resId": "59",
+    "dayOfWeek": "Mon",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "394",
+    "resId": "59",
+    "dayOfWeek": "Tue",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "395",
+    "resId": "59",
+    "dayOfWeek": "Wed",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "396",
+    "resId": "59",
+    "dayOfWeek": "Thu",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "397",
+    "resId": "59",
+    "dayOfWeek": "Fri",
+    "openTime": "16:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "6.000000"
+  },
+  {
+    "hourId": "398",
+    "resId": "59",
+    "dayOfWeek": "Sat",
+    "openTime": "10:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "12.000000"
+  },
+  {
+    "hourId": "399",
+    "resId": "59",
+    "dayOfWeek": "Sun",
+    "openTime": "10:00:00",
+    "closeTime": "21:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "400",
+    "resId": "60",
+    "dayOfWeek": "Mon",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "401",
+    "resId": "60",
+    "dayOfWeek": "Tue",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "402",
+    "resId": "60",
+    "dayOfWeek": "Wed",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "403",
+    "resId": "60",
+    "dayOfWeek": "Thu",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "404",
+    "resId": "60",
+    "dayOfWeek": "Fri",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "405",
+    "resId": "60",
+    "dayOfWeek": "Sat",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  },
+  {
+    "hourId": "406",
+    "resId": "60",
+    "dayOfWeek": "Sun",
+    "openTime": "11:00:00",
+    "closeTime": "22:00:00",
+    "hoursOpen": "11.000000"
+  }
+]
