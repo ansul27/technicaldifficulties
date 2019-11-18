@@ -8,7 +8,6 @@ CREATE TABLE restaurantData (
 	resName VARCHAR(4096) NOT NULL,
 	numReviews VARCHAR(4096),
 	resAddress VARCHAR(4096),
-	resCat VARCHAR(4096),
 	yelpUrl VARCHAR(4096),
 	rating int
 )
@@ -23,7 +22,6 @@ Create PROCEDURE addRestaurants
 @resName VARCHAR(4096),
 @numReviews VARCHAR(4096),
 @resAddress VARCHAR(4096),
-@resCat VARCHAR(4096),
 @yelpUrl VARCHAR(4096),
 @rating INT
 AS
@@ -36,8 +34,8 @@ RETURN
 END
 
 BEGIN TRAN R1 
-INSERT INTO restaurantData(resName, numReviews, resAddress, resCat, yelpUrl, rating) 
-VALUES (@resName, @numReviews, @resAddress, @resCat, @yelpUrl, @rating)
+INSERT INTO restaurantData(resName, numReviews, resAddress, yelpUrl, rating) 
+VALUES (@resName, @numReviews, @resAddress, @yelpUrl, @rating)
 
 IF @@ERROR <> 0 
 	ROLLBACK TRAN R1
@@ -98,3 +96,24 @@ ELSE
 	COMMIT TRAN T1
 	PRINT 'inserted'
 GO 
+
+-- categories: ID, name
+
+
+-- restaurant categories: restaurantID, categoryID
+-- hours: restaurantID, day, openTime, closeTime, totalHours
+
+DROP TABLE IF EXISTS categories
+
+CREATE TABLE categories(
+	catId int IDENTITY(1,1) PRIMARY KEY,
+	catName VARCHAR(4096)
+)
+
+DROP TABLE IF EXISTS restaurantCategories
+
+CREATE TABLE restaurantCategories(
+	resCatID int IDENTITY(1,1) PRIMARY KEY,
+	resId int FOREIGN KEY REFERENCES restaurantData,
+	catId int FOREIGN KEY REFERENCES categories
+)

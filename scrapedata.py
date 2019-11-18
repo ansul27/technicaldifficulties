@@ -2,6 +2,7 @@ import pyodbc
 import requests as r
 from bs4 import BeautifulSoup as bs
 
+
 #Connect to our database, and return our database connection
 def conenctToDB():
     print("Connecting to database")
@@ -52,7 +53,6 @@ def insertRestaurants(all, mydb):
     @resName = ?, 
     @numReviews = ?,
     @resAddress = ?,
-    @resCat = ?,
     @yelpUrl = ?,
     @rating = ?
     """
@@ -63,10 +63,9 @@ def insertRestaurants(all, mydb):
         resName = i[0]
         numReviews = i[1]
         resAddress = i[2]
-        resCat = i[3]
-        yelpUrl = i[4]
-        rating = i[5]
-        params = (resName, numReviews, resAddress, resCat, yelpUrl, rating)
+        yelpUrl = i[3]
+        rating = i[4]
+        params = (resName, numReviews, resAddress, yelpUrl, rating)
         #just for debugging
         print(i)
         cursor.execute(insertRes, params)
@@ -137,33 +136,60 @@ def insertReviews(all, mydb, cursor):
     #close the connection and cursor
     cursor.close()
 
+
+def getCategories(mydb):
+    cursor = mydb.cursor()
+    getRestaurants = '''
+        SELECT resId, yelpUrl
+        FROM restaurantData
+    '''
+    cursor.execute(getRestaurants)
+    for row in cursor.fetchall():
+        restaurant = getHTML(row[1])
+        categories = restaurant.findAll('a', class_ = 'lemon--a__373c0__IEZFH link__373c0__29943 link-color--blue-dark__373c0__1mhJo link-size--inherit__373c0__2JXk5')
+        for c in categories:
+            matches = cursor.execute("SELECT catId FROM categories WHERE catName = ?", c.text)
+            if matches.rowcount == 0:
+                cursor.execute("INSERT INTO categories (catName) VALUES (?)", c.text)
+                cursor.commit()
+                cursor.execute("SELECT catId FROM categories WHERE catName = ?", c.text)
+            for cid in cursor.fetchall():
+                cursor.execute("INSERT INTO restaurantCategories (resId, catId) VALUES (?, ?)", row[0], cid[0])
+                cursor.commit()
+    cursor.close()
+
 if __name__ == '__main__':
 
     # get our pages that we wish to scrape
-    links = processLink(0, 1)
-    # get list of url of each individual restaurant
-    finalLink = getWebLinks(links)
+    # print('1')
+    # links = processLink(0, 1)
+    # # get list of url of each individual restaurant
+    # print('2')
+    # finalLink = getWebLinks(links)
+    # # set the empty list for each column
+    # names = []
+    # reviews = []
+    # locations = []
+    # ratings = []
 
-    # set the empty list for each column
-    names = []
-    reviews = []
-    locations = []
-    categories = []
-    ratings = []
-
-    # for all the links we got, append the title, price, desc, and genres into a list
-    for i in finalLink:
-        restaurant = getHTML(i)
-        names.append(restaurant.find('h1').text)
-        reviews.append(restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--mid__373c0__3G312 text-align--left__373c0__2pnx_ text-size--large__373c0__1568g').text)
-        locations.append(restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--normal__373c0__K_MKN text-align--left__373c0__2pnx_ text-weight--bold__373c0__3HYJa').text)
-        categories.append(restaurant.find('a', class_ = 'lemon--a__373c0__IEZFH link__373c0__29943 link-color--blue-dark__373c0__1mhJo link-size--inherit__373c0__2JXk5').text)
-        ratings.append(int(restaurant.find('div', class_=lambda class_:class_ and class_.startswith("lemon--div__373c0__1mboc i-stars__373c0__Y2F3O"))["aria-label"][:1]))
-    # zip the book with their information into tuples, and put them in a list
-    allRes = list(zip(names, reviews, locations, categories, finalLink, ratings))
+    # # for all the links we got, append the title, price, desc, and genres into a list
+    # print('3')
+    # for i in finalLink:
+    #     restaurant = getHTML(i)
+    #     names.append(restaurant.find('h1').text)
+    #     reviews.append(restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--mid__373c0__3G312 text-align--left__373c0__2pnx_ text-size--large__373c0__1568g').text)
+    #     locations.append(restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--normal__373c0__K_MKN text-align--left__373c0__2pnx_ text-weight--bold__373c0__3HYJa').text)
+    #     # categories.append(restaurant.find('a', class_ = 'lemon--a__373c0__IEZFH link__373c0__29943 link-color--blue-dark__373c0__1mhJo link-size--inherit__373c0__2JXk5').text)
+    #     ratings.append(int(restaurant.find('div', class_=lambda class_:class_ and class_.startswith("lemon--div__373c0__1mboc i-stars__373c0__Y2F3O"))["aria-label"][:1]))
+    # # zip the book with their information into tuples, and put them in a list
+    # allRes = list(zip(names, reviews, locations, finalLink, ratings))
     #connect to our database
-    mydb = conenctToDB()
     # insert your data into the table you created
-    insertRestaurants(allRes, mydb)
-    getReviews(mydb)
+    mydb = conenctToDB()
+    # print('4')
+    # insertRestaurants(allRes, mydb)
+    print('5')
+    getCategories(mydb)
+    # getReviews(mydb)
+    # getHours(mydb)
     mydb.close()
