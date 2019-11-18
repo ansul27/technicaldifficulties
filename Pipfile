@@ -10,6 +10,7 @@ pyodbc = "*"
 requests = "*"
 bs4 = "*"
 mysql-connector-python-rf = "*"
+datetime = "*"
 
 [requires]
 python_version = "3.7"

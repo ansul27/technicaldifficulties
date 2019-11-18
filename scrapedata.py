@@ -1,7 +1,7 @@
 import pyodbc
 import requests as r
 from bs4 import BeautifulSoup as bs
-
+from datetime import datetime
 
 #Connect to our database, and return our database connection
 def conenctToDB():
@@ -67,7 +67,7 @@ def insertRestaurants(all, mydb):
         rating = i[4]
         params = (resName, numReviews, resAddress, yelpUrl, rating)
         #just for debugging
-        print(i)
+        # print(i)
         cursor.execute(insertRes, params)
     #commit your transaction when finished
     cursor.commit()
@@ -129,7 +129,7 @@ def insertReviews(all, mydb, cursor):
         date = i[3]
         params = (resId, review, stars, date)
         #just for debugging
-        print(i)
+        # print(i)
         cursor.execute(insertReview, params)
     #commit your transaction when finished
     cursor.commit()
@@ -158,38 +158,100 @@ def getCategories(mydb):
                 cursor.commit()
     cursor.close()
 
+def getHours(mydb):
+    cursor = mydb.cursor()
+    getRestaurants = '''
+        SELECT resId, yelpUrl
+        FROM restaurantData
+    '''
+    cursor.execute(getRestaurants)
+    resIds = []
+    days = []
+    openTimes = []
+    closeTimes = []
+    for row in cursor.fetchall():
+        # print(row[1])
+        restaurant = getHTML(row[1])
+        hours = restaurant.findAll('tr', class_='lemon--tr__373c0__14NN0 table-row__373c0__3wipe')
+        for d in hours[:7]:
+            days.append(d.find('p', class_='lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--normal__373c0__K_MKN text-align--left__373c0__2pnx_').text)
+            times = d.find('p', class_=lambda class_:class_ and class_.startswith('lemon--p__373c0__3Qnnj text__373c0__2pB8f no-wrap__373c0__3qDj1 text-color--normal__373c0__K_MKN text-align--left__373c0__2pnx_')).text
+            times = times.split(' - ')
+            converted = []
+            for unit in times:
+                # print(unit)
+                if unit == 'Closed':
+                    converted.append(datetime.strptime('00:00', '%H:%M'))
+                    converted.append(datetime.strptime('00:00', '%H:%M'))
+                elif unit == 'Sun' or unit == 'Sat':
+                    converted.append(datetime.strptime('00:00', '%H:%M'))
+                else:
+                    if unit[-2:] == 'am' and unit[:2] == '12':
+                        unit = '00' + unit[2:-3]
+                    elif (unit[-2:] == 'am') or (unit[-2:] == 'pm' and unit[:2] == '12'):
+                        unit = unit[:-3]
+                    else:
+                        unit = str(int(unit[:-6]) + 12) + unit[-6:-3]
+                    converted.append(datetime.strptime(unit, '%H:%M'))
+            openTimes.append(converted[0])
+            closeTimes.append(converted[1])
+            resIds.append(row[0])
+    allTimes = list(zip(resIds, days, openTimes, closeTimes))
+    insertHours(allTimes, mydb, cursor)
+
+def insertHours(allTimes, mydb, cursor):
+    insertTime = '''
+        SET NOCOUNT ON;
+        EXECUTE [addHours]
+        @resId = ?,
+        @dayOfWeek = ?,
+        @openTime = ?,
+        @closeTime = ?
+    '''
+    print('start to import')
+    for i in allTimes:
+        resId = i[0]
+        dayOfWeek = i[1]
+        openTime = i[2]
+        closeTime = i[3]
+        params = (resId, dayOfWeek, openTime, closeTime)
+        # print(i)
+        cursor.execute(insertTime, params)
+    cursor.commit()
+    cursor.close()
+
 if __name__ == '__main__':
 
     # get our pages that we wish to scrape
     # print('1')
-    # links = processLink(0, 1)
-    # # get list of url of each individual restaurant
+    links = processLink(0, 1)
+    # get list of url of each individual restaurant
     # print('2')
-    # finalLink = getWebLinks(links)
-    # # set the empty list for each column
-    # names = []
-    # reviews = []
-    # locations = []
-    # ratings = []
+    finalLink = getWebLinks(links)
+    # set the empty list for each column
+    names = []
+    reviews = []
+    locations = []
+    ratings = []
 
-    # # for all the links we got, append the title, price, desc, and genres into a list
+    # for all the links we got, append the title, price, desc, and genres into a list
     # print('3')
-    # for i in finalLink:
-    #     restaurant = getHTML(i)
-    #     names.append(restaurant.find('h1').text)
-    #     reviews.append(restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--mid__373c0__3G312 text-align--left__373c0__2pnx_ text-size--large__373c0__1568g').text)
-    #     locations.append(restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--normal__373c0__K_MKN text-align--left__373c0__2pnx_ text-weight--bold__373c0__3HYJa').text)
-    #     # categories.append(restaurant.find('a', class_ = 'lemon--a__373c0__IEZFH link__373c0__29943 link-color--blue-dark__373c0__1mhJo link-size--inherit__373c0__2JXk5').text)
-    #     ratings.append(int(restaurant.find('div', class_=lambda class_:class_ and class_.startswith("lemon--div__373c0__1mboc i-stars__373c0__Y2F3O"))["aria-label"][:1]))
-    # # zip the book with their information into tuples, and put them in a list
-    # allRes = list(zip(names, reviews, locations, finalLink, ratings))
+    for i in finalLink:
+        restaurant = getHTML(i)
+        names.append(restaurant.find('h1').text)
+        reviews.append(restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--mid__373c0__3G312 text-align--left__373c0__2pnx_ text-size--large__373c0__1568g').text)
+        locations.append(restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--normal__373c0__K_MKN text-align--left__373c0__2pnx_ text-weight--bold__373c0__3HYJa').text)
+        # categories.append(restaurant.find('a', class_ = 'lemon--a__373c0__IEZFH link__373c0__29943 link-color--blue-dark__373c0__1mhJo link-size--inherit__373c0__2JXk5').text)
+        ratings.append(int(restaurant.find('div', class_=lambda class_:class_ and class_.startswith("lemon--div__373c0__1mboc i-stars__373c0__Y2F3O"))["aria-label"][:1]))
+    # zip the book with their information into tuples, and put them in a list
+    allRes = list(zip(names, reviews, locations, finalLink, ratings))
     #connect to our database
     # insert your data into the table you created
     mydb = conenctToDB()
     # print('4')
-    # insertRestaurants(allRes, mydb)
-    print('5')
+    insertRestaurants(allRes, mydb)
+    # print('5')
     getCategories(mydb)
-    # getReviews(mydb)
-    # getHours(mydb)
+    getReviews(mydb)
+    getHours(mydb)
     mydb.close()

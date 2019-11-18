@@ -97,12 +97,6 @@ ELSE
 	PRINT 'inserted'
 GO 
 
--- categories: ID, name
-
-
--- restaurant categories: restaurantID, categoryID
--- hours: restaurantID, day, openTime, closeTime, totalHours
-
 DROP TABLE IF EXISTS categories
 
 CREATE TABLE categories(
@@ -117,3 +111,46 @@ CREATE TABLE restaurantCategories(
 	resId int FOREIGN KEY REFERENCES restaurantData,
 	catId int FOREIGN KEY REFERENCES categories
 )
+
+DROP TABLE IF EXISTS resHours
+
+-- Create table for Book
+CREATE TABLE resHours (
+	hourId int IDENTITY(1,1) PRIMARY KEY,
+	resId int FOREIGN KEY REFERENCES restaurantData NOT NULL,
+	dayOfWeek VARCHAR(4096),
+	openTime TIME,
+	closeTime TIME,
+	hoursOpen AS DATEDIFF(MINUTE, openTime, closeTime)/60.0
+)
+Go
+
+IF OBJECT_ID ( 'addHours', 'P' ) IS NOT NULL   
+    DROP PROCEDURE addHours;  
+GO
+
+-- Create stored procedure for inserting two tables
+Create PROCEDURE addHours
+@resId int,
+@dayOfWeek VARCHAR(4096),
+@openTime TIME,
+@closeTime TIME
+AS
+-- check if any parameter is null
+IF @resId IS NULL
+BEGIN
+PRINT 'parameters must have a value'
+RAISERROR ('parameters cannot be NULL', 11, 1) 
+RETURN
+END
+
+BEGIN TRAN L1 
+INSERT INTO resHours(resId, dayOfWeek, openTime, closeTime) 
+VALUES (@resId, @dayOfWeek, @openTime, @closeTime)
+
+IF @@ERROR <> 0 
+	ROLLBACK TRAN L1
+ELSE 
+	COMMIT TRAN L1
+	PRINT 'inserted'
+GO 
