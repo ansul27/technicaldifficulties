@@ -1,0 +1,778 @@
+[
+  {
+    "resId": "149",
+    "resName": "Red Pepper",
+    "numReviews": "148 reviews",
+    "resAddress": "4545 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/red-pepper-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "150",
+    "resName": "Teriyaki 1st",
+    "numReviews": "343 reviews",
+    "resAddress": "5201 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/teriyaki-1st-seattle-2?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "151",
+    "resName": "Sichuan Hot Pot",
+    "numReviews": "55 reviews",
+    "resAddress": "4741 12th Ave NE",
+    "yelpUrl": "http://yelp.com/biz/sichuan-hot-pot-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "152",
+    "resName": "DL BBQ",
+    "numReviews": "33 reviews",
+    "resAddress": "4520 The Ave",
+    "yelpUrl": "http://yelp.com/biz/dl-bbq-seattle?osq=Restaurants",
+    "rating": "2"
+  },
+  {
+    "resId": "153",
+    "resName": "Pho Shizzle",
+    "numReviews": "203 reviews",
+    "resAddress": "4235 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/pho-shizzle-seattle-2?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "154",
+    "resName": "Mee Sum",
+    "numReviews": "379 reviews",
+    "resAddress": "4343 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/mee-sum-seattle-2?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "155",
+    "resName": "Fat Ducks Deli & Bakery",
+    "numReviews": "369 reviews",
+    "resAddress": "5509 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/fat-ducks-deli-and-bakery-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "156",
+    "resName": "Ugly Mug Café",
+    "numReviews": "450 reviews",
+    "resAddress": "1309 NE 43rd St",
+    "yelpUrl": "http://yelp.com/biz/ugly-mug-caf%C3%A9-seattle-6?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "157",
+    "resName": "Broadfork Cafe",
+    "numReviews": "63 reviews",
+    "resAddress": "4757 12th Ave NE",
+    "yelpUrl": "http://yelp.com/biz/broadfork-cafe-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "158",
+    "resName": "Hawaii BBQ Restaurant",
+    "numReviews": "160 reviews",
+    "resAddress": "4549 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/hawaii-bbq-restaurant-seattle-2?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "159",
+    "resName": "Buerjia Chinese Sauerkraut Fish",
+    "numReviews": "24 reviews",
+    "resAddress": "4509 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/buerjia-chinese-sauerkraut-fish-seattle-2?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "160",
+    "resName": "Mr Lu's Burgers & Seafood",
+    "numReviews": "212 reviews",
+    "resAddress": "4752 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/mr-lus-burgers-and-seafood-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "161",
+    "resName": "The BoB",
+    "numReviews": "18 reviews",
+    "resAddress": "4131 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/the-bob-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "162",
+    "resName": "Little Thai Restaurant",
+    "numReviews": "345 reviews",
+    "resAddress": "4142 Brooklyn Ave NE",
+    "yelpUrl": "http://yelp.com/biz/little-thai-restaurant-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "163",
+    "resName": "Zen Noodle & Cafe",
+    "numReviews": "162 reviews",
+    "resAddress": "4537A University Way NE",
+    "yelpUrl": "http://yelp.com/biz/zen-noodle-and-cafe-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "164",
+    "resName": "Panda Master",
+    "numReviews": "122 reviews",
+    "resAddress": "4500 9th Ave NE",
+    "yelpUrl": "http://yelp.com/biz/panda-master-seattle-2?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "165",
+    "resName": "T12 Social House",
+    "numReviews": "110 reviews",
+    "resAddress": "4501 12th Ave NE",
+    "yelpUrl": "http://yelp.com/biz/t12-social-house-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "166",
+    "resName": "Thanh Vi",
+    "numReviews": "471 reviews",
+    "resAddress": "4226 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/thanh-vi-seattle-2?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "167",
+    "resName": "Korean Tofu House",
+    "numReviews": "668 reviews",
+    "resAddress": "4142 Brooklyn Ave NE",
+    "yelpUrl": "http://yelp.com/biz/korean-tofu-house-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "168",
+    "resName": "Village Sushi",
+    "numReviews": "79 reviews",
+    "resAddress": "5211 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/village-sushi-seattle-2?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "169",
+    "resName": "Bok a Bok Fried Chicken",
+    "numReviews": "15 reviews",
+    "resAddress": "5201 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/bok-a-bok-fried-chicken-seattle-9?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "170",
+    "resName": "Tasty",
+    "numReviews": "21 reviews",
+    "resAddress": "4311 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/tasty-seattle-2?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "171",
+    "resName": "Big Tuna",
+    "numReviews": "81 reviews",
+    "resAddress": "4336 Roosevelt Way NE",
+    "yelpUrl": "http://yelp.com/biz/big-tuna-seattle-4?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "172",
+    "resName": "Costa's Restaurant",
+    "numReviews": "296 reviews",
+    "resAddress": "4559 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/costas-restaurant-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "173",
+    "resName": "Persepolis Grill",
+    "numReviews": "236 reviews",
+    "resAddress": "5517 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/persepolis-grill-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "174",
+    "resName": "Jewel of India",
+    "numReviews": "355 reviews",
+    "resAddress": "4735 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/jewel-of-india-seattle-3?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "175",
+    "resName": "Guanaco's Tacos Pupuseria",
+    "numReviews": "326 reviews",
+    "resAddress": "4106 Brooklyn Ave NE",
+    "yelpUrl": "http://yelp.com/biz/guanacos-tacos-pupuseria-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "176",
+    "resName": "Cedars of Lebanon",
+    "numReviews": "178 reviews",
+    "resAddress": "1319 NE 43rd St",
+    "yelpUrl": "http://yelp.com/biz/cedars-of-lebanon-seattle-2?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "177",
+    "resName": "My Favorite Deli",
+    "numReviews": "41 reviews",
+    "resAddress": "1301 NE 45th St",
+    "yelpUrl": "http://yelp.com/biz/my-favorite-deli-seattle-2?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "178",
+    "resName": "Chili's South Indian Restaurant",
+    "numReviews": "212 reviews",
+    "resAddress": "4220 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/chilis-south-indian-restaurant-seattle-3?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "179",
+    "resName": "Just Poké",
+    "numReviews": "41 reviews",
+    "resAddress": "4339 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/just-pok%C3%A9-seattle-6?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "180",
+    "resName": "Samir's Mediterranean Grill",
+    "numReviews": "156 reviews",
+    "resAddress": "1316 NE 43rd St",
+    "yelpUrl": "http://yelp.com/biz/samirs-mediterranean-grill-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "181",
+    "resName": "U DupBop",
+    "numReviews": "11 reviews",
+    "resAddress": "4124 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/u-dupbop-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "182",
+    "resName": "Noodle Nation",
+    "numReviews": "341 reviews",
+    "resAddress": "4232 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/noodle-nation-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "183",
+    "resName": "Pampeana Empanadas",
+    "numReviews": "20 reviews",
+    "resAddress": "5031 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/pampeana-empanadas-seattle-2?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "184",
+    "resName": "Saigon Deli",
+    "numReviews": "206 reviews",
+    "resAddress": "4142 Brooklyn Ave NE",
+    "yelpUrl": "http://yelp.com/biz/saigon-deli-seattle-2?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "185",
+    "resName": "Supreme",
+    "numReviews": "27 reviews",
+    "resAddress": "4529 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/supreme-seattle-3?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "186",
+    "resName": "Aladdin Gyro-Cery",
+    "numReviews": "463 reviews",
+    "resAddress": "4139 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/aladdin-gyro-cery-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "187",
+    "resName": "The Block",
+    "numReviews": "60 reviews",
+    "resAddress": "4214 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/the-block-seattle-2?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "188",
+    "resName": "Djan's Thai Restaurant",
+    "numReviews": "416 reviews",
+    "resAddress": "264 NE 45th St",
+    "yelpUrl": "http://yelp.com/biz/djans-thai-restaurant-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "189",
+    "resName": "Shawarma King",
+    "numReviews": "28 reviews",
+    "resAddress": "5241 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/shawarma-king-seattle-8?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "190",
+    "resName": "Garam Masala",
+    "numReviews": "299 reviews",
+    "resAddress": "4537 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/garam-masala-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "191",
+    "resName": "BB's Teriyaki Grill",
+    "numReviews": "109 reviews",
+    "resAddress": "4221 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/bbs-teriyaki-grill-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "192",
+    "resName": "Memo's Mexican Food Restaurant",
+    "numReviews": "325 reviews",
+    "resAddress": "4743 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/memos-mexican-food-restaurant-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "193",
+    "resName": "Ku Sushi and Izakaya",
+    "numReviews": "197 reviews",
+    "resAddress": "5210 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/ku-sushi-and-izakaya-seattle-2?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "194",
+    "resName": "Somtam Thai",
+    "numReviews": "182 reviews",
+    "resAddress": "4736 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/somtam-thai-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "195",
+    "resName": "A Burger Place",
+    "numReviews": "170 reviews",
+    "resAddress": "4234 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/a-burger-place-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "196",
+    "resName": "Tig Kitchen and Bar",
+    "numReviews": "34 reviews",
+    "resAddress": "5240 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/tig-kitchen-and-bar-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "197",
+    "resName": "Mr Gyros - Seattle",
+    "numReviews": "93 reviews",
+    "resAddress": "256 NE 45th St",
+    "yelpUrl": "http://yelp.com/biz/mr-gyros-seattle-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "198",
+    "resName": "Poindexter Coffee",
+    "numReviews": "13 reviews",
+    "resAddress": "4507 Brooklyn Ave NE",
+    "yelpUrl": "http://yelp.com/biz/poindexter-coffee-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "199",
+    "resName": "Kong Tofu House - Seattle",
+    "numReviews": "109 reviews",
+    "resAddress": "1414 NE 42nd St",
+    "yelpUrl": "http://yelp.com/biz/kong-tofu-house-seattle-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "200",
+    "resName": "Off the Rez",
+    "numReviews": "181 reviews",
+    "resAddress": "4300 15th Ave NE",
+    "yelpUrl": "http://yelp.com/biz/off-the-rez-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "201",
+    "resName": "Fitchi House",
+    "numReviews": "19 reviews",
+    "resAddress": "405 NE 45th St",
+    "yelpUrl": "http://yelp.com/biz/fitchi-house-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "202",
+    "resName": "Burger and Kabob Hut",
+    "numReviews": "317 reviews",
+    "resAddress": "4142 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/burger-and-kabob-hut-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "203",
+    "resName": "Green House Korean Restaurant",
+    "numReviews": "189 reviews",
+    "resAddress": "4106 Brooklyn Ave NE",
+    "yelpUrl": "http://yelp.com/biz/green-house-korean-restaurant-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "204",
+    "resName": "Thaiger Room",
+    "numReviews": "593 reviews",
+    "resAddress": "4228 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/thaiger-room-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "205",
+    "resName": "Shultzy's Bar & Grill",
+    "numReviews": "388 reviews",
+    "resAddress": "4114 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/shultzys-bar-and-grill-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "206",
+    "resName": "Panda Noodle Bar",
+    "numReviews": "2 reviews",
+    "resAddress": "4508 The Ave",
+    "yelpUrl": "http://yelp.com/biz/panda-noodle-bar-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "207",
+    "resName": "Vegan Haven",
+    "numReviews": "230 reviews",
+    "resAddress": "5270 B University Way NE",
+    "yelpUrl": "http://yelp.com/biz/vegan-haven-seattle-2?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "208",
+    "resName": "Sultan Gyro Grill & Shawarma",
+    "numReviews": "138 reviews",
+    "resAddress": "4222 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/sultan-gyro-grill-and-shawarma-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "209",
+    "resName": "Pho Thy Thy",
+    "numReviews": "174 reviews",
+    "resAddress": "4129 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/pho-thy-thy-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "210",
+    "resName": "Madeleine Bread & Desserts",
+    "numReviews": "89 reviews",
+    "resAddress": "1401 NE 42nd St",
+    "yelpUrl": "http://yelp.com/biz/madeleine-bread-and-desserts-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "211",
+    "resName": "La Campiello",
+    "numReviews": "null",
+    "resAddress": "4500 9th Ave NE",
+    "yelpUrl": "http://yelp.com/biz/la-campiello-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "212",
+    "resName": "Motosurf",
+    "numReviews": "29 reviews",
+    "resAddress": "1400 NE Campus Pkwy",
+    "yelpUrl": "http://yelp.com/biz/motosurf-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "213",
+    "resName": "University Kitchen",
+    "numReviews": "59 reviews",
+    "resAddress": "4108 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/university-kitchen-seattle-2?osq=Restaurants",
+    "rating": "2"
+  },
+  {
+    "resId": "214",
+    "resName": "Cafe Racer",
+    "numReviews": "156 reviews",
+    "resAddress": "5828 Roosevelt Way NE",
+    "yelpUrl": "http://yelp.com/biz/cafe-racer-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "215",
+    "resName": "A Pizza Mart Bar & Grill",
+    "numReviews": "61 reviews",
+    "resAddress": "5240 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/a-pizza-mart-bar-and-grill-seattle?osq=Restaurants",
+    "rating": "2"
+  },
+  {
+    "resId": "216",
+    "resName": "Bean & Bagel",
+    "numReviews": "85 reviews",
+    "resAddress": "1410 NE 40th St",
+    "yelpUrl": "http://yelp.com/biz/bean-and-bagel-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "217",
+    "resName": "Mamma Mia Pizzeria",
+    "numReviews": "58 reviews",
+    "resAddress": "5301 Roosevelt Way NE",
+    "yelpUrl": "http://yelp.com/biz/mamma-mia-pizzeria-seattle?osq=Restaurants",
+    "rating": "2"
+  },
+  {
+    "resId": "218",
+    "resName": "Seven Coffee Roasters",
+    "numReviews": "64 reviews",
+    "resAddress": "2007 NE Ravenna Blvd",
+    "yelpUrl": "http://yelp.com/biz/seven-coffee-roasters-seattle-2?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "219",
+    "resName": "Jimmy John's",
+    "numReviews": "173 reviews",
+    "resAddress": "4141 University Way",
+    "yelpUrl": "http://yelp.com/biz/jimmy-johns-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "220",
+    "resName": "Milano Pizza & Pasta",
+    "numReviews": "227 reviews",
+    "resAddress": "405 Ne 45th St",
+    "yelpUrl": "http://yelp.com/biz/milano-pizza-and-pasta-seattle?osq=Restaurants",
+    "rating": "2"
+  },
+  {
+    "resId": "221",
+    "resName": "The University of Washington Club",
+    "numReviews": "9 reviews",
+    "resAddress": "University Of Washington",
+    "yelpUrl": "http://yelp.com/biz/the-university-of-washington-club-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "222",
+    "resName": "Subway Restaurants",
+    "numReviews": "47 reviews",
+    "resAddress": "4215 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/subway-restaurants-seattle-3?osq=Restaurants",
+    "rating": "2"
+  },
+  {
+    "resId": "223",
+    "resName": "Finn MacCool's Irish Public House",
+    "numReviews": "172 reviews",
+    "resAddress": "4217 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/finn-maccools-irish-public-house-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "224",
+    "resName": "Local Point",
+    "numReviews": "11 reviews",
+    "resAddress": "1201 NE Campus Pkwy",
+    "yelpUrl": "http://yelp.com/biz/local-point-seattle-2?osq=Restaurants",
+    "rating": "1"
+  },
+  {
+    "resId": "225",
+    "resName": "By George!",
+    "numReviews": "17 reviews",
+    "resAddress": "West Side Of Campus In Red Sq",
+    "yelpUrl": "http://yelp.com/biz/by-george-seattle?osq=Restaurants",
+    "rating": "1"
+  },
+  {
+    "resId": "226",
+    "resName": "Bombay Grill",
+    "numReviews": "5 reviews",
+    "resAddress": "5521 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/bombay-grill-seattle-8?osq=Restaurants",
+    "rating": "1"
+  },
+  {
+    "resId": "227",
+    "resName": "Shizzle Express",
+    "numReviews": "1 review",
+    "resAddress": "4002 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/shizzle-express-seattle-2?osq=Restaurants",
+    "rating": "2"
+  },
+  {
+    "resId": "228",
+    "resName": "The 8",
+    "numReviews": "4 reviews",
+    "resAddress": "4000 15th Ave NE",
+    "yelpUrl": "http://yelp.com/biz/the-8-seattle-2?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "229",
+    "resName": "Center Table",
+    "numReviews": "4 reviews",
+    "resAddress": "4294 Whitman Ln NE",
+    "yelpUrl": "http://yelp.com/biz/center-table-seattle?osq=Restaurants",
+    "rating": "2"
+  },
+  {
+    "resId": "230",
+    "resName": "Red Radish",
+    "numReviews": "5 reviews",
+    "resAddress": "4001 NE Stevens Way",
+    "yelpUrl": "http://yelp.com/biz/red-radish-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "231",
+    "resName": "Red Square BBQ & Hot Dawgs",
+    "numReviews": "11 reviews",
+    "resAddress": "4063 Spokane Ln",
+    "yelpUrl": "http://yelp.com/biz/red-square-bbq-and-hot-dawgs-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "232",
+    "resName": "McMahon HFS",
+    "numReviews": "2 reviews",
+    "resAddress": "Whatcom Ln",
+    "yelpUrl": "http://yelp.com/biz/mcmahon-hfs-seattle?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "233",
+    "resName": "Paul's Italian Kitchen",
+    "numReviews": "6 reviews",
+    "resAddress": "4333 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/pauls-italian-kitchen-seattle?osq=Restaurants",
+    "rating": "2"
+  },
+  {
+    "resId": "234",
+    "resName": "Firecracker Pan Asian Cuisine",
+    "numReviews": "16 reviews",
+    "resAddress": "4098 15th Ave NE",
+    "yelpUrl": "http://yelp.com/biz/firecracker-pan-asian-cuisine-seattle?osq=Restaurants",
+    "rating": "1"
+  },
+  {
+    "resId": "235",
+    "resName": "Orin's Place",
+    "numReviews": "21 reviews",
+    "resAddress": "1410 NE Campus Pkwy",
+    "yelpUrl": "http://yelp.com/biz/orins-place-seattle?osq=Restaurants",
+    "rating": "2"
+  },
+  {
+    "resId": "236",
+    "resName": "Pagliacci Pizza",
+    "numReviews": "12 reviews",
+    "resAddress": "4001 NE Stevens Way",
+    "yelpUrl": "http://yelp.com/biz/pagliacci-pizza-seattle-19?osq=Restaurants",
+    "rating": "3"
+  },
+  {
+    "resId": "237",
+    "resName": "Boba Smoothies",
+    "numReviews": "null",
+    "resAddress": "1409 NE 45th St",
+    "yelpUrl": "http://yelp.com/biz/boba-smoothies-seattle?osq=Restaurants",
+    "rating": null
+  },
+  {
+    "resId": "238",
+    "resName": "Pagliacci Pizza",
+    "numReviews": "3 reviews",
+    "resAddress": "Lander Hall",
+    "yelpUrl": "http://yelp.com/biz/pagliacci-pizza-seattle-28?osq=Restaurants",
+    "rating": "2"
+  },
+  {
+    "resId": "239",
+    "resName": "DUB Street Burgers",
+    "numReviews": "5 reviews",
+    "resAddress": "4001 NE Stevens Way",
+    "yelpUrl": "http://yelp.com/biz/dub-street-burgers-seattle?osq=Restaurants",
+    "rating": "2"
+  },
+  {
+    "resId": "240",
+    "resName": "U Dub Marathan Cafe",
+    "numReviews": "null",
+    "resAddress": "5521 University Way NE",
+    "yelpUrl": "http://yelp.com/biz/u-dub-marathan-cafe-seattle?osq=Restaurants",
+    "rating": null
+  },
+  {
+    "resId": "241",
+    "resName": "Triple S",
+    "numReviews": "1 review",
+    "resAddress": "1201 NE Campus Pkwy",
+    "yelpUrl": "http://yelp.com/biz/triple-s-seattle?osq=Restaurants",
+    "rating": "1"
+  },
+  {
+    "resId": "242",
+    "resName": "Pagliacci Pizza",
+    "numReviews": "null",
+    "resAddress": "4294 Whitman Ct",
+    "yelpUrl": "http://yelp.com/biz/pagliacci-pizza-seattle-31?osq=Restaurants",
+    "rating": null
+  },
+  {
+    "resId": "243",
+    "resName": "Pastaria",
+    "numReviews": "null",
+    "resAddress": "4001 Stevens Way NE",
+    "yelpUrl": "http://yelp.com/biz/pastaria-seattle-2?osq=Restaurants",
+    "rating": null
+  },
+  {
+    "resId": "244",
+    "resName": "Essence of Kaush",
+    "numReviews": "null",
+    "resAddress": "University Of Washington Guthrie Annex 2",
+    "yelpUrl": "http://yelp.com/biz/essence-of-kaush-seattle?osq=Restaurants",
+    "rating": "4"
+  },
+  {
+    "resId": "245",
+    "resName": "Nouveau Dorm",
+    "numReviews": "null",
+    "resAddress": "8 McMahon Hall",
+    "yelpUrl": "http://yelp.com/biz/nouveau-dorm-seattle?osq=Restaurants",
+    "rating": "5"
+  }
+]

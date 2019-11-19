@@ -185,6 +185,9 @@ def getHours(mydb):
                     converted.append(datetime.strptime('00:00', '%H:%M'))
                 elif unit == 'Sun' or unit == 'Sat':
                     converted.append(datetime.strptime('00:00', '%H:%M'))
+                elif unit == 'Open 24 hours':
+                    converted.append(datetime.strptime('00:00', '%H:%M'))
+                    converted.append(datetime.strptime('23:59', '%H:%M'))
                 else:
                     if unit[-2:] == 'am' and unit[:2] == '12':
                         unit = '00' + unit[2:-3]
@@ -222,47 +225,47 @@ def insertHours(allTimes, mydb, cursor):
 
 if __name__ == '__main__':
 
-    # get our pages that we wish to scrape
-    print('1')
-    links = processLink(0, 5)
-    # get list of url of each individual restaurant
-    print('2')
-    finalLink = getWebLinks(links)
-    # set the empty list for each column
-    names = []
-    reviews = []
-    locations = []
-    ratings = []
+    # # get our pages that we wish to scrape
+    # print('1')
+    # links = processLink(0, 5)
+    # # get list of url of each individual restaurant
+    # print('2')
+    # finalLink = getWebLinks(links)
+    # # set the empty list for each column
+    # names = []
+    # reviews = []
+    # locations = []
+    # ratings = []
 
-    # for all the links we got, append the title, price, desc, and genres into a list
-    print('3')
-    for i in finalLink:
-        restaurant = getHTML(i)
-        names.append(restaurant.find('h1').text)
-        numReviews = restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--mid__373c0__3G312 text-align--left__373c0__2pnx_ text-size--large__373c0__1568g')
-        if numReviews is None:
-            reviews.append('null')
-        else:
-            reviews.append(numReviews.text)
-        locations.append(restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--normal__373c0__K_MKN text-align--left__373c0__2pnx_ text-weight--bold__373c0__3HYJa').text)
-        # categories.append(restaurant.find('a', class_ = 'lemon--a__373c0__IEZFH link__373c0__29943 link-color--blue-dark__373c0__1mhJo link-size--inherit__373c0__2JXk5').text)
-        rating = restaurant.find('div', class_=lambda class_:class_ and class_.startswith("lemon--div__373c0__1mboc i-stars__373c0__Y2F3O"))
-        if rating is None:
-            ratings.append(None)
-        else:
-            ratings.append(float(rating["aria-label"][:-12]))
-        print(i)
-    # zip the book with their information into tuples, and put them in a list
-    allRes = list(zip(names, reviews, locations, finalLink, ratings))
+    # # for all the links we got, append the title, price, desc, and genres into a list
+    # print('3')
+    # for i in finalLink:
+    #     restaurant = getHTML(i)
+    #     names.append(restaurant.find('h1').text)
+    #     numReviews = restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--mid__373c0__3G312 text-align--left__373c0__2pnx_ text-size--large__373c0__1568g')
+    #     if numReviews is None:
+    #         reviews.append('null')
+    #     else:
+    #         reviews.append(numReviews.text)
+    #     locations.append(restaurant.find('p', class_ = 'lemon--p__373c0__3Qnnj text__373c0__2pB8f text-color--normal__373c0__K_MKN text-align--left__373c0__2pnx_ text-weight--bold__373c0__3HYJa').text)
+    #     # categories.append(restaurant.find('a', class_ = 'lemon--a__373c0__IEZFH link__373c0__29943 link-color--blue-dark__373c0__1mhJo link-size--inherit__373c0__2JXk5').text)
+    #     rating = restaurant.find('div', class_=lambda class_:class_ and class_.startswith("lemon--div__373c0__1mboc i-stars__373c0__Y2F3O"))
+    #     if rating is None:
+    #         ratings.append(None)
+    #     else:
+    #         ratings.append(float(rating["aria-label"][:-12]))
+    #     print(i)
+    # # zip the book with their information into tuples, and put them in a list
+    # allRes = list(zip(names, reviews, locations, finalLink, ratings))
     # #connect to our database
     # # insert your data into the table you created
     mydb = conenctToDB()
-    print('4')
-    insertRestaurants(allRes, mydb)
-    print('5')
-    getCategories(mydb)
-    print('6')
-    getReviews(mydb)
-    print('7')
+    # print('4')
+    # insertRestaurants(allRes, mydb)
+    # print('5')
+    # getCategories(mydb)
+    # print('6')
+    # getReviews(mydb)
+    # print('7')
     getHours(mydb)
     mydb.close()
