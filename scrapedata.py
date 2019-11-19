@@ -23,7 +23,7 @@ def getHTML(domain):
 def processLink(start, end):
     pages = []
     for i in range(start, end + 1):
-        pages.append("https://www.yelp.com/search?cflt=restaurants&find_loc=University%20District%2C%20Seattle%2C%20WA&start=" + str(i * 30))
+        pages.append("https://www.yelp.com/search?find_desc=Restaurants&find_loc=University%20District%2C%20Seattle%2C%20WA&l=g%3A-122.30323791503906%2C47.67220483993177%2C-122.32881546020508%2C47.65486318428674&start=" + str(i * 30))
     return pages
 
 #takes in a list of url that we will use
@@ -224,7 +224,7 @@ if __name__ == '__main__':
 
     # get our pages that we wish to scrape
     print('1')
-    links = processLink(0, 0)
+    links = processLink(0, 5)
     # get list of url of each individual restaurant
     print('2')
     finalLink = getWebLinks(links)
@@ -248,7 +248,7 @@ if __name__ == '__main__':
         # categories.append(restaurant.find('a', class_ = 'lemon--a__373c0__IEZFH link__373c0__29943 link-color--blue-dark__373c0__1mhJo link-size--inherit__373c0__2JXk5').text)
         rating = restaurant.find('div', class_=lambda class_:class_ and class_.startswith("lemon--div__373c0__1mboc i-stars__373c0__Y2F3O"))
         if rating is None:
-            ratings.append('null')
+            ratings.append(None)
         else:
             ratings.append(float(rating["aria-label"][:-12]))
         print(i)
