@@ -9,7 +9,7 @@ CREATE TABLE restaurantData (
 	numReviews VARCHAR(4096),
 	resAddress VARCHAR(4096),
 	yelpUrl VARCHAR(4096),
-	rating int
+	rating DECIMAL(3,2)
 )
 Go
 
@@ -23,7 +23,7 @@ Create PROCEDURE addRestaurants
 @numReviews VARCHAR(4096),
 @resAddress VARCHAR(4096),
 @yelpUrl VARCHAR(4096),
-@rating INT
+@rating DECIMAL(3,2)
 AS
 -- check if any parameter is null
 IF @resName IS NULL
