@@ -121,7 +121,7 @@ CREATE TABLE resHours (
 	dayOfWeek VARCHAR(4096),
 	openTime TIME,
 	closeTime TIME,
-	hoursOpen AS ABS(DATEDIFF(MINUTE, openTime, closeTime)/60.0)
+	hoursOpen AS DATEDIFF(MINUTE, openTime, closeTime)/60.0
 )
 Go
 
