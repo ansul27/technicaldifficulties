@@ -185,6 +185,9 @@ def getHours(mydb):
                     converted.append(datetime.strptime('00:00', '%H:%M'))
                 elif unit == 'Sun' or unit == 'Sat':
                     converted.append(datetime.strptime('00:00', '%H:%M'))
+                elif unit == 'Open 24 hours':
+                    converted.append(datetime.strptime('00:00', '%H:%M'))
+                    converted.append(datetime.strptime('23:59', '%H:%M'))
                 else:
                     if unit[-2:] == 'am' and unit[:2] == '12':
                         unit = '00' + unit[2:-3]
@@ -223,10 +226,8 @@ def insertHours(allTimes, mydb, cursor):
 if __name__ == '__main__':
 
     # get our pages that we wish to scrape
-    print('1')
     links = processLink(0, 5)
     # get list of url of each individual restaurant
-    print('2')
     finalLink = getWebLinks(links)
     # set the empty list for each column
     names = []
@@ -235,7 +236,6 @@ if __name__ == '__main__':
     ratings = []
 
     # for all the links we got, append the title, price, desc, and genres into a list
-    print('3')
     for i in finalLink:
         restaurant = getHTML(i)
         names.append(restaurant.find('h1').text)
@@ -251,18 +251,13 @@ if __name__ == '__main__':
             ratings.append(None)
         else:
             ratings.append(float(rating["aria-label"][:-12]))
-        print(i)
     # zip the book with their information into tuples, and put them in a list
     allRes = list(zip(names, reviews, locations, finalLink, ratings))
-    # #connect to our database
-    # # insert your data into the table you created
+    #connect to our database
+    # insert your data into the table you created
     mydb = conenctToDB()
-    print('4')
     insertRestaurants(allRes, mydb)
-    print('5')
     getCategories(mydb)
-    print('6')
     getReviews(mydb)
-    print('7')
     getHours(mydb)
     mydb.close()

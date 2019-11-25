@@ -1,0 +1,286 @@
+[
+  {
+    "catId": "41",
+    "catName": "Chinese"
+  },
+  {
+    "catId": "42",
+    "catName": "Japanese"
+  },
+  {
+    "catId": "43",
+    "catName": "Korean"
+  },
+  {
+    "catId": "44",
+    "catName": "Hot Pot"
+  },
+  {
+    "catId": "45",
+    "catName": "Szechuan"
+  },
+  {
+    "catId": "46",
+    "catName": "Barbeque"
+  },
+  {
+    "catId": "47",
+    "catName": "Vietnamese"
+  },
+  {
+    "catId": "48",
+    "catName": "Noodles"
+  },
+  {
+    "catId": "49",
+    "catName": "Bakeries"
+  },
+  {
+    "catId": "50",
+    "catName": "Bubble Tea"
+  },
+  {
+    "catId": "51",
+    "catName": "Delis"
+  },
+  {
+    "catId": "52",
+    "catName": "Sandwiches"
+  },
+  {
+    "catId": "53",
+    "catName": "Breakfast & Brunch"
+  },
+  {
+    "catId": "54",
+    "catName": "Coffee Roasteries"
+  },
+  {
+    "catId": "55",
+    "catName": "Vegan"
+  },
+  {
+    "catId": "56",
+    "catName": "Cafes"
+  },
+  {
+    "catId": "57",
+    "catName": "Hawaiian"
+  },
+  {
+    "catId": "58",
+    "catName": "Seafood"
+  },
+  {
+    "catId": "59",
+    "catName": "Desserts"
+  },
+  {
+    "catId": "60",
+    "catName": "Burgers"
+  },
+  {
+    "catId": "61",
+    "catName": "Thai"
+  },
+  {
+    "catId": "62",
+    "catName": "Taiwanese"
+  },
+  {
+    "catId": "63",
+    "catName": "Sports Bars"
+  },
+  {
+    "catId": "64",
+    "catName": "American (Traditional)"
+  },
+  {
+    "catId": "65",
+    "catName": "Gastropubs"
+  },
+  {
+    "catId": "66",
+    "catName": "Sushi Bars"
+  },
+  {
+    "catId": "67",
+    "catName": "Asian Fusion"
+  },
+  {
+    "catId": "68",
+    "catName": "Chicken Wings"
+  },
+  {
+    "catId": "69",
+    "catName": "Chicken Shop"
+  },
+  {
+    "catId": "70",
+    "catName": "Greek"
+  },
+  {
+    "catId": "71",
+    "catName": "Mediterranean"
+  },
+  {
+    "catId": "72",
+    "catName": "Persian/Iranian"
+  },
+  {
+    "catId": "73",
+    "catName": "Halal"
+  },
+  {
+    "catId": "74",
+    "catName": "Indian"
+  },
+  {
+    "catId": "75",
+    "catName": "Mexican"
+  },
+  {
+    "catId": "76",
+    "catName": "Salvadoran"
+  },
+  {
+    "catId": "77",
+    "catName": "Lebanese"
+  },
+  {
+    "catId": "78",
+    "catName": "Poke"
+  },
+  {
+    "catId": "79",
+    "catName": "Middle Eastern"
+  },
+  {
+    "catId": "80",
+    "catName": "Argentine"
+  },
+  {
+    "catId": "81",
+    "catName": "Food Stands"
+  },
+  {
+    "catId": "82",
+    "catName": "Empanadas"
+  },
+  {
+    "catId": "83",
+    "catName": "Pizza"
+  },
+  {
+    "catId": "84",
+    "catName": "Falafel"
+  },
+  {
+    "catId": "85",
+    "catName": "Pakistani"
+  },
+  {
+    "catId": "86",
+    "catName": "Salad"
+  },
+  {
+    "catId": "87",
+    "catName": "Izakaya"
+  },
+  {
+    "catId": "88",
+    "catName": "Coffee & Tea"
+  },
+  {
+    "catId": "89",
+    "catName": "Food Trucks"
+  },
+  {
+    "catId": "90",
+    "catName": "Italian"
+  },
+  {
+    "catId": "91",
+    "catName": "Uzbek"
+  },
+  {
+    "catId": "92",
+    "catName": "Ice Cream & Frozen Yogurt"
+  },
+  {
+    "catId": "93",
+    "catName": "Hot Dogs"
+  },
+  {
+    "catId": "94",
+    "catName": "German"
+  },
+  {
+    "catId": "95",
+    "catName": "Pubs"
+  },
+  {
+    "catId": "96",
+    "catName": "Specialty Food"
+  },
+  {
+    "catId": "97",
+    "catName": "Grocery"
+  },
+  {
+    "catId": "98",
+    "catName": "Patisserie/Cake Shop"
+  },
+  {
+    "catId": "99",
+    "catName": "Bars"
+  },
+  {
+    "catId": "100",
+    "catName": "Bagels"
+  },
+  {
+    "catId": "101",
+    "catName": "Fast Food"
+  },
+  {
+    "catId": "102",
+    "catName": "American (New)"
+  },
+  {
+    "catId": "103",
+    "catName": "Venues & Event Spaces"
+  },
+  {
+    "catId": "104",
+    "catName": "Irish"
+  },
+  {
+    "catId": "105",
+    "catName": "Do-It-Yourself Food"
+  },
+  {
+    "catId": "106",
+    "catName": "Soup"
+  },
+  {
+    "catId": "107",
+    "catName": "Diners"
+  },
+  {
+    "catId": "108",
+    "catName": "Pan Asian"
+  },
+  {
+    "catId": "109",
+    "catName": "Juice Bars & Smoothies"
+  },
+  {
+    "catId": "110",
+    "catName": "Cafeteria"
+  },
+  {
+    "catId": "111",
+    "catName": "Restaurants"
+  }
+]
