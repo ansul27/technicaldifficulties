@@ -1,6 +1,18 @@
-USE yelpdata
+--USE yelpdata
+--USE is commented out, cannot change databases with Azure (in SSMS, change database manually)
 
+--Drops all tables, in an order that does not violate key constraints
+DROP TABLE IF EXISTS users
+DROP TABLE IF EXISTS reviews
+DROP TABLE IF EXISTS resHours
+DROP TABLE IF EXISTS restaurantCategories
+DROP TABLE IF EXISTS categories
 DROP TABLE IF EXISTS restaurantData
+
+--Drops all Stored Procedures
+DROP PROC IF EXISTS addReviews
+DROP PROC IF EXISTS addHours
+DROP PROC IF EXISTS addRestaurants
 
 -- Create table for Book
 CREATE TABLE restaurantData (
@@ -44,16 +56,12 @@ ELSE
 	PRINT 'inserted'
 GO 
 
-DROP TABLE IF EXISTS users
-
 -- Create table for Book
 CREATE TABLE users (
 	UserID int IDENTITY(1,1) PRIMARY KEY,
 	name VARCHAR(4096)
 )
 Go
-
-DROP TABLE IF EXISTS reviews
 
 -- Create table for Book
 CREATE TABLE reviews (
@@ -97,22 +105,16 @@ ELSE
 	PRINT 'inserted'
 GO 
 
-DROP TABLE IF EXISTS categories
-
 CREATE TABLE categories(
 	catId int IDENTITY(1,1) PRIMARY KEY,
 	catName VARCHAR(4096)
 )
-
-DROP TABLE IF EXISTS restaurantCategories
 
 CREATE TABLE restaurantCategories(
 	resCatID int IDENTITY(1,1) PRIMARY KEY,
 	resId int FOREIGN KEY REFERENCES restaurantData,
 	catId int FOREIGN KEY REFERENCES categories
 )
-
-DROP TABLE IF EXISTS resHours
 
 -- Create table for Book
 CREATE TABLE resHours (
