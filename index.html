@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="technicaldifficulties">
+    <meta name="description" content="An app that displays positive Yelp trends">
+    <meta name="keywords" content="Yelp, Restaurants">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header {
+            background-color: #d32323;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0.25rem 0.25rem 0.25rem 1rem;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+        
+        main {
+            margin: 1rem;
+        }
+
+        h1 {
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        figure {
+            height: 20rem;
+            width: 20rem;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+    <!--<style>
+        body {font-family: Arial;}
+        
+        /* Style the tab */
+        .tab {
+          overflow: hidden;
+          border: 1px solid #ccc;
+          background-color: #f1f1f1;
+        }
+        
+        /* Style the buttons inside the tab */
+        .tab button {
+          background-color: inherit;
+          float: left;
+          border: none;
+          outline: none;
+          /*cursor: pointer;*/
+          padding: 14px 16px;
+          transition: 0.3s;
+          font-size: 17px;
+        }
+        
+        /* Change background color of buttons on hover */
+        .tab button:hover, .tab button:focus {
+          background-color: #ddd;
+        }
+        
+        /* Create an active/current tablink class */
+        .tab button.active {
+          background-color: #ccc;
+        }
+        
+        /* Style the tab content */
+        .tabcontent {
+          display: none;
+          padding: 6px 12px;
+          border: 1px solid #ccc;
+          border-top: none;
+        }
+        </style>-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/table_icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Carter+One%7CKarla" rel="stylesheet">-->
+    <title>Restaurant Success Trends</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            technicaldifficulties
+        </h1>
+    </header>
+    <main>
+        <h2>Restaurant Success Trends</h2>
+        <p>Click on a button to view different analytics</p>
+
+        <div class="tab">
+            <div role="tablist">
+                <button class="tablinks" onclick="graphChange('potato')">Graph 1!</button>
+                <button class="tablinks" onclick="graphChange('sweetPotato')">Graph 2!</button>
+                <button class="tablinks" onclick="graphChange('taro')">Graph 3!</button>
+            </div>
+        </div>
+
+        <!--
+        <div class="tab">
+                <div role="tablist">
+                    <button class="tablinks" onclick="potatoPic()" role="tab" aria-selected="true">London</button>
+                    <button class="tablinks" onclick="noPic()" role="tab" aria-selected="false" tabindex="-1">Paris</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')" role="tab" aria-selected="false" tabindex="-1">Tokyo</button>
+                </div>
+            </div>
+        
+
+        <div id="London" class="tabcontent">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+        </div>
+
+        <div id="Paris" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+        </div>
+
+        <div id="Tokyo" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+        -->
+        <figure id="graphPicture" tabindex="0">
+            <img id="displayPanel" src="./img/potato.jpg" alt="potatoes">
+        </figure>
+        <p id="graphDescription">
+            Select a graph to get started!
+        </p>
+
+        <script>
+            function graphChange(graphName) {
+                document.querySelector("#displayPanel").src="./img/" + graphName +".jpg"
+                document.querySelector("#displayPanel").alt= "Successful " + graphName + "&apos;s"
+                document.querySelector("#graphDescription").lastChild.textContent = "The key to a successful restaurant is " + graphName
+            }
+
+            function noPic() {
+                document.querySelector("#displayPanel").src=""
+            }
+            /*
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }*/
+        </script>
+    </main>
+
+
+    <!-- JavaScript
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+    <script src="js/index.js"></script>-->
+</body>
+
+</html>
