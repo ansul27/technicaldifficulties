@@ -6,11 +6,7 @@ from datetime import datetime
 #Connect to our database, and return our database connection
 def conenctToDB():
     print("Connecting to database")
-    mydb = pyodbc.connect('''DRIVER={ODBC Driver 17 for SQL Server};
-        SERVER=info-430-au19.database.windows.net;
-        DATABASE=yelpdata;
-        UID=simkota;
-        PWD=h3ll0fr!3nd$''')
+    mydb = pyodbc.connect("DRIVER={ODBC Driver 17 for SQL Server};SERVER=info-430-au19.database.windows.net;DATABASE=yelpdata;UID=simkota;PWD=h3ll0fr!3nd$")
     print("Done connecting")
     return mydb
     
@@ -261,5 +257,5 @@ if __name__ == '__main__':
     # insertRestaurants(allRes, mydb)
     # getCategories(mydb)
     # getReviews(mydb)
-    getHours(mydb)
+    #getHours(mydb)
     mydb.close()
