@@ -2,8 +2,18 @@
     font-size: 1.3vw;
 }
 
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
 @media (max-width: 768px) {
     .nav-item {
         font-size: 2vw;
     }
+/* 
+    .image {
+        width: 500px;
+        height: 100%;
+    } */
 }
