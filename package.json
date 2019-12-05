@@ -20,6 +20,7 @@
     "body-parser": "^1.19.0",
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
-    "mysql": "^2.17.1"
+    "mysql": "^2.17.1",
+    "tedious": "^6.6.2"
   }
 }
