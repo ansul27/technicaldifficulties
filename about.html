@@ -51,10 +51,12 @@
         <h1 class="my-3 mx-3 text-center">About Our Project</h1>
         <h2 class="mx-3 mt-3 text-secondary">Methods and Design</h2>
         <p class="mx-3">
-            Web scraping, python and beautiful soup
-        </p>
-        <p class="mx-3">
-            Azure
+            To access the Yelp data, we scraped the website using Python, specifically the beautifulsoup package. We found the class names and HTML elements associated with
+            the attributes we wished to record, and inputted these into the find functions used. First, we retrieved a list of all the restaurants in the U-District by scraping
+            the "University District restaurants" search results paged. We also retrieved the individual Yelp URL for each of these restaurants so that we were able to access
+            their individual pages as well, and subsequently get restaurant-specific information. The scraped data was then added to a SQL database hosted on Microsoft Azure
+            using a number of SQL stored procedures. The stored procedures also added a number of computed columns in addition to the scraped attributes, such as hoursOpen
+            and unique identifiers (described below).
         </p>
         <p class="mx-3">
             Tableau
@@ -64,16 +66,33 @@
         </p>
         <h2 class="mx-3 mt-3 text-secondary">Database Implementation</h2>
         <p class="mx-3">
-            Restaurants
-        </p>
-        <p class="mx-3">
-            Hours
-        </p>
-        <p class="mx-3">
-            Categories
-        </p>
-        <p class="mx-3">
-            Reviews
+            A SQL database was used to store the data, which was normalized using five tables: restaurantData, resHours, restaurantCategories,
+            categories, and reviews. <strong>restaurantData</strong> was the primary table of the database, and stored information that was
+            essential to understand every other table. This included for each restaurant a unique identifier <em>resId</em>, the restaurant's name as <em>resName</em>,
+            the total number of reviews for the restaurant as <em>numReviews</em>, the address as <em>resAddress</em>, a link to the restaurant's Yelp page as
+            <em>yelpUrl</em>, and the overall rating for the restaurant as <em>rating</em>. resId was used to relate other tables to restaurantData.
+            <br><br>
+            The <strong>reviews</strong> table contained reviews from the first page of reviews of each restaurant. Each review had a unique
+            identifier <em>reviewId</em>, the ID of the restaurant being reviewed as <em>resId</em>, the full text of the review as <em>review</em>,
+            the rating given to the restaurant in that specific review as <em>stars</em>, and the date on which the review was written as <em>reviewDate</em>.
+            Although we would have liked to record information about the user who wrote each individual review, we found that we were unable to access this
+            information using beautifulsoup, as a search for its corresponding HTML element would return an "interface loading" object instead of the correct
+            user information. We were unsure as to the cause of this error, and could not find a way to mitigate it despite attempts to add a loading buffer.
+            <br><br>
+            The table <strong>resHours</strong> contained information on the hours of operation of each restaurant. Each record contained an individual <em>hourId</em>,
+            the ID of the restaurant which the hours applied to as <em>resId</em>, the day of the week which the hours were applicable to as <em>dayOfWeek</em>, the
+            time the restaurant opened on that day as <em>openTime</em>, the time the restaurant closed on that day as <em>closeTime</em>, and the total hours the
+            restaurant was open on that day, computed based on the opening and closing times, as <em>hoursOpen</em>. However, the information in this table contained
+            some corruption since some restaurants would be open during multiple intervals during a day, in which case beautifulsoup was only able to access and store
+            information for the first interval on any given day. This in turn corrupted the calculation of the total number of hours the restaurant was open for.
+            Additionally, for any restaurant whose closing time was the next day, the calculation of the total number of hours open returned a negative number.
+            <br><br>
+            Finally, the <strong>categories</strong> table stored all the categories attributed to the restaurants in the restaurantData table. Each record contained a
+            unique identifier <em>catId</em>, as well as the name of the category as <em>catName</em>. Instead of storing every category used by Yelp, we limited the table
+            to records applicable to the restaurants recorded by adding categories as they were found on the individual restaurants' Yelp pages. The table
+            <strong>restaurantCategories</strong> was an intermediary table linking restaurantData and categories to avoid duplicating records in the categories table. This
+            table contained a unique <em>resCatID</em> for each record, a <em>resId</em> indicating the restaurant being referenced, and a <em>catId</em> indicating the
+            category the restaurant was being mapped to.
         </p>
         <h3 class="mx-3 text-secondary">Entity Relationship Diagram</h3>
         <div class="row">

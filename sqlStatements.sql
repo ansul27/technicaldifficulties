@@ -14,7 +14,6 @@ DROP PROC IF EXISTS addReviews
 DROP PROC IF EXISTS addHours
 DROP PROC IF EXISTS addRestaurants
 
--- Create table for Book
 CREATE TABLE restaurantData (
 	resId int IDENTITY(1,1) PRIMARY KEY,
 	resName VARCHAR(4096) NOT NULL,
@@ -29,7 +28,6 @@ IF OBJECT_ID ( 'addRestaurants', 'P' ) IS NOT NULL
     DROP PROCEDURE addRestaurants;  
 GO
 
--- Create stored procedure for inserting two tables
 Create PROCEDURE addRestaurants
 @resName VARCHAR(4096),
 @numReviews VARCHAR(4096),
@@ -37,7 +35,6 @@ Create PROCEDURE addRestaurants
 @yelpUrl VARCHAR(4096),
 @rating DECIMAL(3,2)
 AS
--- check if any parameter is null
 IF @resName IS NULL
 BEGIN
 PRINT 'parameters must have a value'
@@ -56,19 +53,10 @@ ELSE
 	PRINT 'inserted'
 GO 
 
--- Create table for Book
-CREATE TABLE users (
-	UserID int IDENTITY(1,1) PRIMARY KEY,
-	name VARCHAR(4096)
-)
-Go
-
--- Create table for Book
 CREATE TABLE reviews (
 	reviewId int IDENTITY(1,1) PRIMARY KEY,
 	resId int FOREIGN KEY REFERENCES restaurantData NOT NULL,
 	review VARCHAR(4096),
-	-- reviewerId int FOREIGN KEY REFERENCES users NOT NULL,
 	stars int,
 	reviewDate VARCHAR(4096)
 )
@@ -78,15 +66,13 @@ IF OBJECT_ID ( 'addReviews', 'P' ) IS NOT NULL
     DROP PROCEDURE addReviews;  
 GO
 
--- Create stored procedure for inserting two tables
 Create PROCEDURE addReviews
 @resId int,
 @review VARCHAR(4096),
--- @reviewerId int,
 @stars int,
 @reviewDate VARCHAR(4096)
 AS
--- check if any parameter is null
+
 IF @resId IS NULL
 BEGIN
 PRINT 'parameters must have a value'
@@ -116,7 +102,6 @@ CREATE TABLE restaurantCategories(
 	catId int FOREIGN KEY REFERENCES categories
 )
 
--- Create table for Book
 CREATE TABLE resHours (
 	hourId int IDENTITY(1,1) PRIMARY KEY,
 	resId int FOREIGN KEY REFERENCES restaurantData NOT NULL,
@@ -131,14 +116,12 @@ IF OBJECT_ID ( 'addHours', 'P' ) IS NOT NULL
     DROP PROCEDURE addHours;  
 GO
 
--- Create stored procedure for inserting two tables
 Create PROCEDURE addHours
 @resId int,
 @dayOfWeek VARCHAR(4096),
 @openTime TIME,
 @closeTime TIME
 AS
--- check if any parameter is null
 IF @resId IS NULL
 BEGIN
 PRINT 'parameters must have a value'
