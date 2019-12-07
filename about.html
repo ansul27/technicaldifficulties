@@ -93,29 +93,69 @@
         <h3 class="mx-3 text-secondary">Entity Relationship Diagram</h3>
         <div class="row">
             <div class="col-6 mx-3">
-                <img id="displayPanel" class="img-fluid" src="./visualizations/erd.jpg" alt="A graph of ratings by category">
+                <img id="displayPanel" class="img-fluid" src="./visualizations/erd.JPG" alt="A graph of ratings by category">
             </div>
         </div>
         </p>
         <h2 class="mx-3 mt-3 text-secondary">Limitations and Challenges</h2>
-        <p class="mx-3">
-            Site filling with Javascript 
-        </p>
-        <p class="mx-3">
-            Yelp's long arbitrary class names
-        </p>
-        <p class="mx-3">
-            IP address fiasco - Not wanting to remove firewall
-        </p>
-        <p class="mx-3">
-            Captcha blocking, yelp banned us!
-        </p>
-        <p class="mx-3">
-            Hours open, negative hours, 7pm-2am
-        </p>
-        <p class="mx-3">
-            Finding meaningful relationships
-        </p>
+        <ul>
+            <li>
+                User Information in a Script Tag, Hard to Retrieve
+                <ul>
+                    <li>
+                        As we were scraping data from yelp.com we discovered that a lot of the data we wanted to process about users was actually displayed via a script tag, which meant we couldn’t access the info with Beautiful Soup. Ultimately we could collect some information from the user box in the actual review, but we weren’t able to collect all reviews from users with this method.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Confusing, Inconsistent, and Too Many Class Names                
+                <ul>
+                    <li>
+                        An example of the inconsistent class names would be “lemon--span__373c0__3997G” which is not common to the description of any other review on the same page, we ultimately had to rely on the order of tags within a review as opposed to a class name such as “reviewer-name”.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Uploading to Azure IP Address Challenge
+                <ul>
+                    <li>
+                        Azure was not a common skill for all four of us on the team, and one of the hardest parts was getting everyone access to the database and even then, anytime one of us would move to a different wi-fi with a different IP address, we would have to manually add that IP address to the allowed IP addresses.                     
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Finding Meaningful Relationships in Data
+                <ul>
+                    <li>
+                        This was challenging because once we had successfully pulled all the information we wanted, it was disconcerting how little obvious relationship there was between say hours open and overall rating of restaurants on the Ave. Ultimately we had success seeing what types of words were most important in a review, such as location.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Recaptcha
+                <ul>
+                    <li>
+                        On an inconsistent basis, we would have to manually fill in a recaptcha for yelp.com in order to scrape data, so we would have to run our scrapedata.py script and then fill in the recaptcha puzzle before the script could stop working
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Getting banned from Yelp
+                <ul>
+                    <li>
+                        On one occasion Simran was attempting to pull data and had her IP address banned from yelp.com. This was a problem with many solutions, such as logging into a new wi-fi or another person scraping the data, but it added a lot of time to the data gathering process.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Calculating Hours Open
+                <ul>
+                    <li>
+                        One last challenge was an algorithmic problem, we originally calculated the hours open for each restaurant for each data as the absolute value of the difference between the closing and opening time, but when restaurants, particularly bars, would be open till the next day we had to consider that and add in hours accordingly.
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </body>
 
