@@ -55,10 +55,54 @@
             and unique identifiers (described below).
         </p>
         <p class="mx-3">
-            Tableau
+            Tableau: we created visualizations on Tableau by directly connecting it to our Azure database. These images were used to determine the correlation, if any, between characteristics of restaurants and their ratings.
         </p>
         <p class="mx-3">
-            Python Sci-Kit Learning
+            We used multiple python libraries to preprocess our code and model the review system. We used natural language processing to pick out words that were prominent in a good and bad restaurant. These are the steps we took.
+        </p>
+        <p class="mx-3">
+            Step 1: Import | Install packages and libraries. This allowed us to use functionality to remove stop words, create visualizations, use counters, and more.
+        </p>
+        <p class="mx-3">
+            Step 2: Load Data
+        </p>
+        <p class="mx-3">
+            Step 3: Clean the data using python module NLTK. Remove stopwords (unnecessary words)
+        </p>
+        <p class="mx-3">
+            Step 4: Reload "cleaned reviews" into reviews json (new column). 
+        </p>
+        <p class="mx-3">
+            Step 5: Determine if a review is "good" or "bad" based on ratings (0 is bad, 1 is good).
+        </p>
+         <p class="mx-3">
+            Step 6: Split "good" and "bad" reviews. Determine most used word in good reviews versus bad reviews. Determine most used nouns in good reviews versus bad reviews.
+        </p>
+         <p class="mx-3">
+            Step 7: Visualize most common words in word clouds. Remove unnecessary words. Re-run, and gather insights. 
+        </p>
+         <p class="mx-3">
+            Step 8: Pick out words of interest and compare the number of times the word appears in good versus bad reviews.
+        </p>
+        <p class="mx-3"> 
+            We then ran a model on it, the Multinomial Naive Bayes Classifer, to predict a rating by writing our own review.
+        </p>
+        <p class="mx-3">
+            Step 1: Import | Install packages and libraries
+        </p>
+        <p class="mx-3">
+            Step 2: Load and Organize Data. Remove stop words.
+        </p>
+        <p class="mx-3">
+            Step 3: Replace 1, 2, 3 and 4 star reviews with 0 "bad" and 5 stars to 1 "good". This is to balance the number of good and bad reviews so the model works better (versus an unfair balance).
+     We added a "Target" column that is the rating of the review. We counted the number of reviews (there are more 5 and 4 reviews than 1, 2 and 3 combined), so we classified into “good” and “bad” and reorganized it so there’s a more equal number, so the model works well on both good and bad, instead of being skewed one way.
+        <p class="mx-3"> Step 4: Split data into train and test data</p>
+        <p class="mx-3"> Multinomial Naive Bayes Classifier</p>
+        <p class="mx-3"> Import and make pipeline </p>
+        <p class="mx-3">Fit the model</p>
+        <p class="mx-3"> Create a confusion matrix to visualize accuracy (true positive, true negative, false positive, false negative)</p>
+        <p class="mx-3">Create a function to predict the rating of a review.</p>
+
         </p>
         <h2 class="mx-3 mt-3 text-secondary">Database Implementation</h2>
         <p class="mx-3">
